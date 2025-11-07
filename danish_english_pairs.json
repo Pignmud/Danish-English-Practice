@@ -1,0 +1,3766 @@
+[
+  {
+    "Danish": "Muiriel er 20 nu.",
+    "English": "Muiriel is 20 now."
+  },
+  {
+    "Danish": "Kodeordet er \"Muiriel\".",
+    "English": "The password is \"Muiriel\"."
+  },
+  {
+    "Danish": "Jeg var i bjergene.",
+    "English": "I was in the mountains."
+  },
+  {
+    "Danish": "Er det et nyere foto?",
+    "English": "Is it a recent picture?"
+  },
+  {
+    "Danish": "Du står i vejen for mig.",
+    "English": "You are in my way."
+  },
+  {
+    "Danish": "Jeg tjener hundrede euro om dagen.",
+    "English": "I make €100 a day."
+  },
+  {
+    "Danish": "Det vil ikke ske.",
+    "English": "That won't happen."
+  },
+  {
+    "Danish": "Jeg savner dig.",
+    "English": "I miss you."
+  },
+  {
+    "Danish": "De fleste synes jeg er skør.",
+    "English": "Most people think I'm crazy."
+  },
+  {
+    "Danish": "Er du sikker?",
+    "English": "Are you sure?"
+  },
+  {
+    "Danish": "Skynd dig!",
+    "English": "Hurry up."
+  },
+  {
+    "Danish": "Det overrasker mig ikke.",
+    "English": "It doesn't surprise me."
+  },
+  {
+    "Danish": "Jeg er så tyk.",
+    "English": "I'm so fat."
+  },
+  {
+    "Danish": "Hvad så?",
+    "English": "So what?"
+  },
+  {
+    "Danish": "Og hvad så?",
+    "English": "So what?"
+  },
+  {
+    "Danish": "Det vil tage en evighed at forklare det hele.",
+    "English": "It would take forever for me to explain everything."
+  },
+  {
+    "Danish": "Jeg ville have brug for en evighed for at forklare alt.",
+    "English": "It would take forever for me to explain everything."
+  },
+  {
+    "Danish": "Det er ikke vigtigt.",
+    "English": "This is not important."
+  },
+  {
+    "Danish": "Tak for din forklaring.",
+    "English": "Thanks for your explanation."
+  },
+  {
+    "Danish": "Det gjorde mig næsten bange ikke at se dig online i en hel dag.",
+    "English": "It almost scared me not to see you online for a whole day."
+  },
+  {
+    "Danish": "Jeg elsker dig.",
+    "English": "I love you."
+  },
+  {
+    "Danish": "Jeg holder ikke af dig mere.",
+    "English": "I don't like you anymore."
+  },
+  {
+    "Danish": "Jeg kan heller ikke forklare det.",
+    "English": "I can't explain it either."
+  },
+  {
+    "Danish": "Jeg taler ikke japansk.",
+    "English": "I don't speak Japanese."
+  },
+  {
+    "Danish": "Ingen forstår mig.",
+    "English": "Nobody understands me."
+  },
+  {
+    "Danish": "Jeg lærte at leve uden hende.",
+    "English": "I learned to live without her."
+  },
+  {
+    "Danish": "Jeg har for mange ting i hovedet for tiden.",
+    "English": "I have too many things on my mind these days."
+  },
+  {
+    "Danish": "Jeg ville bare tjekke min e-mail.",
+    "English": "I just wanted to check my email."
+  },
+  {
+    "Danish": "Du kan ikke forvente at jeg altid tænker på alting.",
+    "English": "You can't expect me to always think of everything!"
+  },
+  {
+    "Danish": "Forvent ikke at andre tænker for dig!",
+    "English": "Don't expect others to think for you!"
+  },
+  {
+    "Danish": "Du har aldrig tid til vigtige ting!",
+    "English": "You never have time for important things!"
+  },
+  {
+    "Danish": "Du har aldrig tid til de vigtige ting!",
+    "English": "You never have time for important things!"
+  },
+  {
+    "Danish": "Hold op med at betragte mig som en \"normal\" person!",
+    "English": "Stop seeing me as a \"normal\" person!"
+  },
+  {
+    "Danish": "Er det mig du mener?",
+    "English": "Are you referring to me?"
+  },
+  {
+    "Danish": "Henviser du til mig?",
+    "English": "Are you referring to me?"
+  },
+  {
+    "Danish": "Umuligt!",
+    "English": "It can't be!"
+  },
+  {
+    "Danish": "Kunne du tænke dig noget at drikke?",
+    "English": "Would you like something to drink?"
+  },
+  {
+    "Danish": "Hvem er det? \"Det er din mor.",
+    "English": "Who is it? \"It's your mother."
+  },
+  {
+    "Danish": "Hvornår er du tilbage? \"Det afhænger af vejret.",
+    "English": "When will you be back? \"It all depends on the weather."
+  },
+  {
+    "Danish": "Når man begynder at ligne sit pasbillede, burde man tage på ferie.",
+    "English": "When you're beginning to look like the photo in your passport, you should go on a holiday."
+  },
+  {
+    "Danish": "Du er en engel!",
+    "English": "You're an angel!"
+  },
+  {
+    "Danish": "Mange tak!",
+    "English": "Thank you very much!"
+  },
+  {
+    "Danish": "Man skal ikke kaste med sten, når man bor i et glashus.",
+    "English": "Those who live in glass houses should not throw stones."
+  },
+  {
+    "Danish": "De, som bor i glashuse, burde ikke kaste med sten.",
+    "English": "Those who live in glass houses should not throw stones."
+  },
+  {
+    "Danish": "Dem, som bor i glashuse, burde ikke kaste med sten.",
+    "English": "Those who live in glass houses should not throw stones."
+  },
+  {
+    "Danish": "De eneste nyttige svar er de, der rejser nye spørgsmål.",
+    "English": "The only useful answers are those that raise new questions."
+  },
+  {
+    "Danish": "Taler du italiensk?",
+    "English": "Do you speak Italian?"
+  },
+  {
+    "Danish": "Vi kan ikke sove på grund af støjen.",
+    "English": "We can't sleep because of the noise."
+  },
+  {
+    "Danish": "Har du et kondom?",
+    "English": "Do you have a condom?"
+  },
+  {
+    "Danish": "Hvad vil du?",
+    "English": "What do you want?"
+  },
+  {
+    "Danish": "Jeg hedder Jack.",
+    "English": "My name is Jack."
+  },
+  {
+    "Danish": "Det er ikke min skyld!",
+    "English": "It's not my fault!"
+  },
+  {
+    "Danish": "Jeg har mistet min tegnebog.",
+    "English": "I have lost my wallet."
+  },
+  {
+    "Danish": "Jeg har mistet min pung.",
+    "English": "I have lost my wallet."
+  },
+  {
+    "Danish": "Takket være dig har jeg mistet min appetit.",
+    "English": "Thanks to you I've lost my appetite."
+  },
+  {
+    "Danish": "Jeg er træt.",
+    "English": "I'm tired."
+  },
+  {
+    "Danish": "Tal venligst langsommere.",
+    "English": "Speak more slowly, please!"
+  },
+  {
+    "Danish": "Hvornår ankommer vi?",
+    "English": "When do we arrive?"
+  },
+  {
+    "Danish": "Jeg har hovedpine.",
+    "English": "I have a headache."
+  },
+  {
+    "Danish": "Jeg har ondt i hovedet.",
+    "English": "I have a headache."
+  },
+  {
+    "Danish": "Ring til politiet!",
+    "English": "Call the police!"
+  },
+  {
+    "Danish": "Tilkald politiet!",
+    "English": "Call the police!"
+  },
+  {
+    "Danish": "Glædelig jul!",
+    "English": "Merry Christmas!"
+  },
+  {
+    "Danish": "Alt, som kan misforstås, vil blive misforstået.",
+    "English": "Anything that can be misunderstood will be."
+  },
+  {
+    "Danish": "Jeg er gift og har to børn.",
+    "English": "I am married and have two children."
+  },
+  {
+    "Danish": "Du ved ikke hvem jeg er.",
+    "English": "You don't know who I am."
+  },
+  {
+    "Danish": "Kreationismen er en pseudovidenskab.",
+    "English": "Creationism is a pseudo-science."
+  },
+  {
+    "Danish": "Hvor der er en vilje, er der en vej.",
+    "English": "Where there's a will, there's a way."
+  },
+  {
+    "Danish": "Jeg forstår ikke tysk.",
+    "English": "I don't understand German."
+  },
+  {
+    "Danish": "Matematikere er som franskmænd: Lige meget hvad du siger til dem så oversætter de det til deres eget sprog og laver det om til noget helt andet.",
+    "English": "Mathematicians are like French people: whatever you tell them they translate it into their own language and turn it into something totally different."
+  },
+  {
+    "Danish": "Det er koldt.",
+    "English": "It's cold."
+  },
+  {
+    "Danish": "Jeg er tørstig.",
+    "English": "I'm thirsty."
+  },
+  {
+    "Danish": "Du er uimodståelig.",
+    "English": "You're irresistible."
+  },
+  {
+    "Danish": "Hvem taler jeg med?",
+    "English": "Who am I talking with?"
+  },
+  {
+    "Danish": "Er du for eller imod abort?",
+    "English": "Are you for or against abortions?"
+  },
+  {
+    "Danish": "Hjernen er blot en kompliceret maskine.",
+    "English": "The brain is just a complicated machine."
+  },
+  {
+    "Danish": "Hjernen er kun en indviklet maskine.",
+    "English": "The brain is just a complicated machine."
+  },
+  {
+    "Danish": "Bliv ikke i sengen, med mindre du kan tjene penge i sengen.",
+    "English": "Don't stay in bed, unless you can make money in bed."
+  },
+  {
+    "Danish": "Bliv ikke i sengen, hvis ikke du kan tjene penge i sengen.",
+    "English": "Don't stay in bed, unless you can make money in bed."
+  },
+  {
+    "Danish": "Jeg vil ikke gå i skole.",
+    "English": "I don't want to go to school."
+  },
+  {
+    "Danish": "Det regner.",
+    "English": "It is raining."
+  },
+  {
+    "Danish": "Ja, det sker fra tid til anden.",
+    "English": "Yes, it happens from time to time."
+  },
+  {
+    "Danish": "Jeg drømte om dig.",
+    "English": "I dreamt about you."
+  },
+  {
+    "Danish": "Jeg har drømt om dig.",
+    "English": "I dreamt about you."
+  },
+  {
+    "Danish": "Jeg taber ikke!",
+    "English": "I won't lose!"
+  },
+  {
+    "Danish": "Jeg kommer ikke til at tabe!",
+    "English": "I won't lose!"
+  },
+  {
+    "Danish": "Du havde masser af tid.",
+    "English": "You had plenty of time."
+  },
+  {
+    "Danish": "Hvad taler du om?",
+    "English": "What are you talking about?"
+  },
+  {
+    "Danish": "Hvad snakker du om?",
+    "English": "What are you talking about?"
+  },
+  {
+    "Danish": "Hvordan udtaler man \"pronounce\"?",
+    "English": "How do you pronounce \"pronounce\"?"
+  },
+  {
+    "Danish": "Vinter er min yndlingsårstid.",
+    "English": "Winter is my favorite season."
+  },
+  {
+    "Danish": "Jeg tilbragte tolv timer i toget.",
+    "English": "I spent twelve hours on the train."
+  },
+  {
+    "Danish": "Så hvad om jeg er bøsse? Er det en forbrydelse?",
+    "English": "So what if I am gay? Is it a crime?"
+  },
+  {
+    "Danish": "Min mor købte to flasker appelsinjuice.",
+    "English": "My mother bought two bottles of orange juice."
+  },
+  {
+    "Danish": "Hun havde en sort hat på.",
+    "English": "She was wearing a black hat."
+  },
+  {
+    "Danish": "Hvor er badeværelset?",
+    "English": "Where is the bathroom?"
+  },
+  {
+    "Danish": "Ethvert menneske er en verden.",
+    "English": "Each person is a world."
+  },
+  {
+    "Danish": "Jeg er stolt over at tage del i dette projekt.",
+    "English": "I am proud to be a part of this project."
+  },
+  {
+    "Danish": "Hvor er du?",
+    "English": "Where are you?"
+  },
+  {
+    "Danish": "Jeg tager sædvanligvis brusebad om aftenen.",
+    "English": "I usually take a shower in the evening."
+  },
+  {
+    "Danish": "Måske har du ret, jeg har været egoistisk.",
+    "English": "Perhaps you are right, I have been selfish."
+  },
+  {
+    "Danish": "Glem os ikke!",
+    "English": "Don't forget about us!"
+  },
+  {
+    "Danish": "Jeg ville gerne have batterier til dette apparat.",
+    "English": "I would like batteries for this device."
+  },
+  {
+    "Danish": "Vil du være så venlig at gentage det?",
+    "English": "Could you please repeat that?"
+  },
+  {
+    "Danish": "Vi kan rejse gennem tiden. Og vi gør det med den bemærkelsesværdige hastighed af et sekund per sekund.",
+    "English": "We can travel through time. And we do at the remarkable rate of one second per second."
+  },
+  {
+    "Danish": "Den, der ler sidst, ler bedst.",
+    "English": "He laughs best who laughs last."
+  },
+  {
+    "Danish": "Jo tidligere, desto bedre.",
+    "English": "The sooner, the better."
+  },
+  {
+    "Danish": "Jeg kunne lide denne film.",
+    "English": "I liked this film."
+  },
+  {
+    "Danish": "Det er lige meget.",
+    "English": "It's not important."
+  },
+  {
+    "Danish": "Det er ikke vigtigt.",
+    "English": "It's not important."
+  },
+  {
+    "Danish": "Det er mig lige meget.",
+    "English": "I don't care."
+  },
+  {
+    "Danish": "Tooghalvtreds procent af britiske kvinder foretrækker chokolade frem for sex.",
+    "English": "Fifty-two per cent of British women prefer chocolate to sex."
+  },
+  {
+    "Danish": "Morgenstund har guld i mund.",
+    "English": "The early bird catches the worm."
+  },
+  {
+    "Danish": "Vent i venteværelset.",
+    "English": "Wait in the waiting room."
+  },
+  {
+    "Danish": "Filmen varede to timer.",
+    "English": "The film lasted 2 hours."
+  },
+  {
+    "Danish": "Hendes have er et kunstværk.",
+    "English": "Her garden is a work of art."
+  },
+  {
+    "Danish": "Jeg ville hellere være en fugl end en fisk.",
+    "English": "I'd rather be a bird than a fish."
+  },
+  {
+    "Danish": "Det er gået ti år siden vi mødtes sidst.",
+    "English": "It's been ten years since we last met."
+  },
+  {
+    "Danish": "Hun sælger stoffer ved koncerter.",
+    "English": "She's selling drugs at concerts."
+  },
+  {
+    "Danish": "Jeg begravede min hund på dyrekirkegården.",
+    "English": "I buried my dog at the pet cemetery."
+  },
+  {
+    "Danish": "Kun et minut.",
+    "English": "Just a minute."
+  },
+  {
+    "Danish": "Vidste du ikke at han døde for to år siden?",
+    "English": "Didn't you know that he passed away two years ago?"
+  },
+  {
+    "Danish": "Ved du ikke at han gik bort for to år siden?",
+    "English": "Don't you know that he passed away two years ago?"
+  },
+  {
+    "Danish": "Hvem taler du om?",
+    "English": "Whom are you speaking of?"
+  },
+  {
+    "Danish": "Du hører aldrig efter. Jeg kunne lige så godt tale til væggen.",
+    "English": "You never listen. I might as well talk to the wall."
+  },
+  {
+    "Danish": "Tror du på Gud?",
+    "English": "Do you believe in God?"
+  },
+  {
+    "Danish": "Du er ansvarlig for det du har gjort.",
+    "English": "You are responsible for what you have done."
+  },
+  {
+    "Danish": "Du kom ikke i skole i går.",
+    "English": "You did not come to school yesterday."
+  },
+  {
+    "Danish": "Har du hørt om branden i går?",
+    "English": "Did you hear about the fire yesterday?"
+  },
+  {
+    "Danish": "Er I lykkelige?",
+    "English": "Are you happy?"
+  },
+  {
+    "Danish": "Er du lykkelig?",
+    "English": "Are you happy?"
+  },
+  {
+    "Danish": "Du må bestemme dig og det straks.",
+    "English": "You must make up your mind, and that at once."
+  },
+  {
+    "Danish": "Du ser bleg ud.",
+    "English": "You look pale."
+  },
+  {
+    "Danish": "Kan du gøre dig forståelig på engelsk?",
+    "English": "Can you make yourself understood in English?"
+  },
+  {
+    "Danish": "Du vil aldrig være alene.",
+    "English": "You'll never be alone."
+  },
+  {
+    "Danish": "Jeg er overrasket over at du er så naiv.",
+    "English": "I'm surprised that you're so naïve."
+  },
+  {
+    "Danish": "Det overrasker mig at du er så naiv.",
+    "English": "I'm surprised that you're so naïve."
+  },
+  {
+    "Danish": "Kan du huske at du har set mig tidligere?",
+    "English": "Do you remember seeing me before?"
+  },
+  {
+    "Danish": "Kan du ikke lide æbler?",
+    "English": "Don't you like apples?"
+  },
+  {
+    "Danish": "Har du en pen?",
+    "English": "Have you got a pen?"
+  },
+  {
+    "Danish": "Kan du tale fransk?",
+    "English": "Can you speak French?"
+  },
+  {
+    "Danish": "Du kan gå hvorhen du vil.",
+    "English": "You may go anywhere you like."
+  },
+  {
+    "Danish": "Hvad laver du?",
+    "English": "What are you doing?"
+  },
+  {
+    "Danish": "Du burde holde op med at ryge og drikke.",
+    "English": "You should give up smoking and drinking."
+  },
+  {
+    "Danish": "Du vil snart vænne dig til din nye skole.",
+    "English": "You will soon get accustomed to your new school."
+  },
+  {
+    "Danish": "Hvornår plejer du at stå op?",
+    "English": "What time do you usually get up?"
+  },
+  {
+    "Danish": "Du ser altid tv.",
+    "English": "You are always watching TV."
+  },
+  {
+    "Danish": "En dag vil du få sandheden at vide.",
+    "English": "You will know the truth some day."
+  },
+  {
+    "Danish": "Du er en god dreng.",
+    "English": "You are a good boy."
+  },
+  {
+    "Danish": "Lod du vinduet stå åbent?",
+    "English": "Did you leave the window open?"
+  },
+  {
+    "Danish": "Udlad unødvendige ord!",
+    "English": "Omit needless words!"
+  },
+  {
+    "Danish": "Er der noget du ønsker, som du ikke har?",
+    "English": "Is there anything you want that you don't have?"
+  },
+  {
+    "Danish": "Din drøm går i opfyldelse en dag.",
+    "English": "Your dream will come true some day."
+  },
+  {
+    "Danish": "Sammenlign dine svar med lærerens.",
+    "English": "Compare your answers with the teacher's."
+  },
+  {
+    "Danish": "Det rager ikke dig!",
+    "English": "It's none of your business."
+  },
+  {
+    "Danish": "Er dine hænder rene?",
+    "English": "Are your hands clean?"
+  },
+  {
+    "Danish": "Må jeg låne din ordbog?",
+    "English": "May I borrow your dictionary?"
+  },
+  {
+    "Danish": "Hvad er klokken på dit ur?",
+    "English": "What time is it by your watch?"
+  },
+  {
+    "Danish": "Hvor kommer du fra?",
+    "English": "Where do you come from?"
+  },
+  {
+    "Danish": "Jeres sko er her.",
+    "English": "Your shoes are here."
+  },
+  {
+    "Danish": "Dine sko er her.",
+    "English": "Your shoes are here."
+  },
+  {
+    "Danish": "Her er dine sko.",
+    "English": "Your shoes are here."
+  },
+  {
+    "Danish": "Dit ønske vil gå i opfyldelse i nær fremtid.",
+    "English": "Your wish will come true in the near future."
+  },
+  {
+    "Danish": "Hvad er dit ønske?",
+    "English": "What's your wish?"
+  },
+  {
+    "Danish": "Dine øjne minder mig om stjerner.",
+    "English": "Your eyes remind me of stars."
+  },
+  {
+    "Danish": "Hvor er din skole?",
+    "English": "Where is your school?"
+  },
+  {
+    "Danish": "Hvor er jeres skole?",
+    "English": "Where is your school?"
+  },
+  {
+    "Danish": "Jeg synes du er blevet meget bedre til engelsk.",
+    "English": "I think your English has improved a lot."
+  },
+  {
+    "Danish": "Din mor må have været smuk, da hun var ung.",
+    "English": "Your mother must have been beautiful when she was young."
+  },
+  {
+    "Danish": "Din mor må have været smuk som ung.",
+    "English": "Your mother must have been beautiful when she was young."
+  },
+  {
+    "Danish": "Jeg har noget at fortælle dig.",
+    "English": "I have something to tell you."
+  },
+  {
+    "Danish": "Du kan ikke have forstået hvad han sagde.",
+    "English": "You can't have understood what he said."
+  },
+  {
+    "Danish": "Jeg er meget glad for at se dig.",
+    "English": "I'm very glad to see you."
+  },
+  {
+    "Danish": "Jeg forventer at du arbejder hårdere.",
+    "English": "I expect you to work harder."
+  },
+  {
+    "Danish": "Kan du gøre det?",
+    "English": "Can you do that?"
+  },
+  {
+    "Danish": "Du fortjener at lykkes.",
+    "English": "You deserve to succeed."
+  },
+  {
+    "Danish": "Hvem er din lærer?",
+    "English": "Who is your teacher?"
+  },
+  {
+    "Danish": "Det er indlysende at du fortalte en løgn.",
+    "English": "It's evident that you told a lie."
+  },
+  {
+    "Danish": "Jeg gør alt hvad du beder mig om.",
+    "English": "I'll do everything you tell me to do."
+  },
+  {
+    "Danish": "Tag venligst dine sokker af.",
+    "English": "Take off your socks, please."
+  },
+  {
+    "Danish": "Tag dine sko af.",
+    "English": "Take off your shoes."
+  },
+  {
+    "Danish": "Hvor langt er der til lufthavnen?",
+    "English": "How far is it to the airport?"
+  },
+  {
+    "Danish": "Jeg tager med dig til lufthavnen.",
+    "English": "I'll accompany you to the airport."
+  },
+  {
+    "Danish": "Hvor kører lufthavnsbussen fra?",
+    "English": "Where does the airport bus leave from?"
+  },
+  {
+    "Danish": "Jeg tog en taxa til lufthavnen.",
+    "English": "I went to the airport by taxi."
+  },
+  {
+    "Danish": "Lufthavnen var lukket på grund af tågen.",
+    "English": "The airport was closed because of the fog."
+  },
+  {
+    "Danish": "Hvor kan jeg tage lufthavnsbussen?",
+    "English": "Where can I get the airport bus?"
+  },
+  {
+    "Danish": "Lufthavnen er tæt på.",
+    "English": "The airport is close at hand."
+  },
+  {
+    "Danish": "Jeg foretrækker et hotel tæt på lufthavnen.",
+    "English": "I prefer a hotel by the airport."
+  },
+  {
+    "Danish": "Jeg ringer så snart jeg er i lufthavnen.",
+    "English": "I'll phone you as soon as I get to the airport."
+  },
+  {
+    "Danish": "Hans fly til Hong Kong afgår kl. 14:00.",
+    "English": "His plane leaves for Hong Kong at 2:00 p.m."
+  },
+  {
+    "Danish": "Fugle sang i himlen.",
+    "English": "Birds were singing in the sky."
+  },
+  {
+    "Danish": "Jeg vil have detaljer.",
+    "English": "I want specific information."
+  },
+  {
+    "Danish": "Ønsker du at være rig?",
+    "English": "Do you want to be rich?"
+  },
+  {
+    "Danish": "Ønsker I at være rige?",
+    "English": "Do you want to be rich?"
+  },
+  {
+    "Danish": "Vil du være rig?",
+    "English": "Do you want to be rich?"
+  },
+  {
+    "Danish": "Jeg har ikke penge, men jeg har drømme.",
+    "English": "I have no money, but I have dreams."
+  },
+  {
+    "Danish": "Guldprisen svinger daglig.",
+    "English": "The price of gold fluctuates daily."
+  },
+  {
+    "Danish": "Guldprisen fluktuerer daglig.",
+    "English": "The price of gold fluctuates daily."
+  },
+  {
+    "Danish": "For mange penge?",
+    "English": "Too much money?"
+  },
+  {
+    "Danish": "Jeg håber snart at se dig.",
+    "English": "I hope to see you soon."
+  },
+  {
+    "Danish": "Disse problemer bliver løst i nær fremtid.",
+    "English": "These problems will be solved in the near future."
+  },
+  {
+    "Danish": "Til min overraskelse blev antropologen anklaget for mord.",
+    "English": "To my surprise, the anthropologist was accused of murder."
+  },
+  {
+    "Danish": "Tak for informationen.",
+    "English": "Thank you for the information."
+  },
+  {
+    "Danish": "Han kom på femtepladsen i løbet.",
+    "English": "He came in fifth in the race."
+  },
+  {
+    "Danish": "Kyoto er berømt for sine gamle templer.",
+    "English": "Kyoto is famous for its old temples."
+  },
+  {
+    "Danish": "Der er mange berømte gamle bygninger i Kyoto.",
+    "English": "There are many famous old buildings in Kyoto."
+  },
+  {
+    "Danish": "Der er mange gamle templer i Kyoto.",
+    "English": "There are many old temples in Kyoto."
+  },
+  {
+    "Danish": "Jeg købte to flasker mælk.",
+    "English": "I bought two bottles of milk."
+  },
+  {
+    "Danish": "I paladset bor kongen og dronningen.",
+    "English": "In the palace live the king and the queen."
+  },
+  {
+    "Danish": "Rygning er strengt forbudt.",
+    "English": "Smoking is strictly prohibited."
+  },
+  {
+    "Danish": "At ryge er skadeligt for helbredet.",
+    "English": "Smoking is harmful to health."
+  },
+  {
+    "Danish": "Når katten er ude, danser musene på bordet.",
+    "English": "When the cat is away, the mice will play."
+  },
+  {
+    "Danish": "I er smukke.",
+    "English": "You are beautiful."
+  },
+  {
+    "Danish": "Du har tre biler.",
+    "English": "You have three cars."
+  },
+  {
+    "Danish": "I har tre biler.",
+    "English": "You have three cars."
+  },
+  {
+    "Danish": "Du drikker te.",
+    "English": "You drink tea."
+  },
+  {
+    "Danish": "Du er læge.",
+    "English": "You are a doctor."
+  },
+  {
+    "Danish": "Vær ikke bekymret.",
+    "English": "Don't worry about it!"
+  },
+  {
+    "Danish": "Gør dig ingen bekymringer.",
+    "English": "Don't worry about it!"
+  },
+  {
+    "Danish": "Det er lige meget.",
+    "English": "Never mind."
+  },
+  {
+    "Danish": "Radioen på skrivebordet er en Sony.",
+    "English": "The radio on the desk is a Sony."
+  },
+  {
+    "Danish": "Regningen er på halvtreds dollar.",
+    "English": "The bill amounts to fifty dollars."
+  },
+  {
+    "Danish": "Jeg fryser.",
+    "English": "I feel cold."
+  },
+  {
+    "Danish": "Jeg fryser.",
+    "English": "I'm freezing."
+  },
+  {
+    "Danish": "Godt begyndt er halvt fuldendt.",
+    "English": "Well begun is half done."
+  },
+  {
+    "Danish": "De hader ham fordi han giver dem et bjerg af hjemmearbejde.",
+    "English": "They hate him because he gives them a mountain of homework."
+  },
+  {
+    "Danish": "De studerende stod og ventede på en bus.",
+    "English": "The students stood waiting for a bus."
+  },
+  {
+    "Danish": "Eleverne skal være stille i timen.",
+    "English": "Students must keep silent during class."
+  },
+  {
+    "Danish": "Jeg mødte Tom på vej til skole.",
+    "English": "I met Tom on my way to school."
+  },
+  {
+    "Danish": "Vores skole begynder klokken otte.",
+    "English": "Our school begins at eight."
+  },
+  {
+    "Danish": "Ingen er for gammel til at lære.",
+    "English": "No one is too old to learn."
+  },
+  {
+    "Danish": "Vi skal alle være forsigtige når vi kører.",
+    "English": "Each of us has to be careful when driving."
+  },
+  {
+    "Danish": "Jeg kan ikke lide at lave mad når det er varmt udenfor.",
+    "English": "I don't like to cook when it's hot outside."
+  },
+  {
+    "Danish": "Han mødte sin ven medens han badede i havet.",
+    "English": "He met his friend while bathing in the sea."
+  },
+  {
+    "Danish": "Skal vi tage en drink på vej hjem?",
+    "English": "Want to grab a drink on the way home?"
+  },
+  {
+    "Danish": "Vi står over for nye typer sygdomme.",
+    "English": "We are faced with new kinds of diseases."
+  },
+  {
+    "Danish": "Vi vil allesammen gerne have at priserne falder.",
+    "English": "All of us want prices to decline."
+  },
+  {
+    "Danish": "Vi har boet her siden juli.",
+    "English": "We've been living here since July."
+  },
+  {
+    "Danish": "Vi løb ned ad bakken.",
+    "English": "We ran down the hill."
+  },
+  {
+    "Danish": "Vores verden er kun en lille del af universet.",
+    "English": "Our world is only one small part of the universe."
+  },
+  {
+    "Danish": "Vores nye hovedkontor ligger i Tokyo.",
+    "English": "Our new head office is in Tokyo."
+  },
+  {
+    "Danish": "Vor by har et indbyggertal der er en tredjedel af Tokyos.",
+    "English": "Our city has one third as many people as Tokyo."
+  },
+  {
+    "Danish": "Vores projekt faldt til jorden.",
+    "English": "Our project collapsed."
+  },
+  {
+    "Danish": "Mit navn er Hopkins.",
+    "English": "My name is Hopkins."
+  },
+  {
+    "Danish": "Jeg hedder Hopkins.",
+    "English": "My name is Hopkins."
+  },
+  {
+    "Danish": "Vi importerer kaffe fra Brasilien.",
+    "English": "We import coffee from Brazil."
+  },
+  {
+    "Danish": "Hold vasen med begge hænder.",
+    "English": "Hold the vase in both hands."
+  },
+  {
+    "Danish": "Rør ikke ved blomsterne.",
+    "English": "Don't touch the flowers."
+  },
+  {
+    "Danish": "Vulkanudbruddet truede landsbyen.",
+    "English": "The volcanic eruption threatened the village."
+  },
+  {
+    "Danish": "20 mennesker omkom ved branden.",
+    "English": "Twenty people perished in the blaze."
+  },
+  {
+    "Danish": "Det er farligt at lege nær ved ilden.",
+    "English": "It's dangerous to play around the fire."
+  },
+  {
+    "Danish": "For at slå tiden ihjel, slentrede jeg gennem gaderne.",
+    "English": "I strolled along the streets to kill time."
+  },
+  {
+    "Danish": "Lad os gå hjem.",
+    "English": "Let us go home."
+  },
+  {
+    "Danish": "Der var ingen i huset.",
+    "English": "There wasn't anybody in the house."
+  },
+  {
+    "Danish": "Vores hund graver sine ben ned i haven.",
+    "English": "Our dog buries its bones in the garden."
+  },
+  {
+    "Danish": "Vi køber en ny bil i næste uge.",
+    "English": "We will purchase a new car next week."
+  },
+  {
+    "Danish": "Der er ild i huset.",
+    "English": "The house is on fire."
+  },
+  {
+    "Danish": "Sommerferien begynder i juli.",
+    "English": "The summer vacation begins in July."
+  },
+  {
+    "Danish": "Sommeren er forbi.",
+    "English": "Summer is gone."
+  },
+  {
+    "Danish": "Sommeren er forbi.",
+    "English": "The summer is over."
+  },
+  {
+    "Danish": "Sommeren er ovre.",
+    "English": "The summer is over."
+  },
+  {
+    "Danish": "Hr. Kato er lærer.",
+    "English": "Mr Kato is a teacher."
+  },
+  {
+    "Danish": "Jeg accepterer betingelserne, hvis du nedsætter prisen.",
+    "English": "I'll agree to the terms if you lower the price."
+  },
+  {
+    "Danish": "Prisen varierer med efterspørgslen.",
+    "English": "The price varies with demand."
+  },
+  {
+    "Danish": "Prisen ændrer sig med efterspørgslen.",
+    "English": "The price varies with demand."
+  },
+  {
+    "Danish": "Priserne ser ud til at falde.",
+    "English": "Prices seem to be going down."
+  },
+  {
+    "Danish": "Hvem tror du, du er?",
+    "English": "Who do you think you are?"
+  },
+  {
+    "Danish": "Her er nogle blomster. En er rød, en anden er hvid og de andre er gule.",
+    "English": "There are several flowers. One is red, another is white, and the others are yellow."
+  },
+  {
+    "Danish": "Tusinder af udlændinge besøger Japan hvert år.",
+    "English": "Thousands of foreigners visit Japan every year."
+  },
+  {
+    "Danish": "Tusindvis af udlændinge rejser til Japan hvert år.",
+    "English": "Thousands of foreigners visit Japan every year."
+  },
+  {
+    "Danish": "Du må sidde lige hvor du har lyst til.",
+    "English": "You may sit wherever you like."
+  },
+  {
+    "Danish": "Hvad tid begynder det?",
+    "English": "What time does it start?"
+  },
+  {
+    "Danish": "Hvad tid ankommer vores tog til Hakata?",
+    "English": "What time is our train arriving at Hakata?"
+  },
+  {
+    "Danish": "Hvornår kommer du tilbage?",
+    "English": "When will you be back?"
+  },
+  {
+    "Danish": "Hvorfor kom du ikke?",
+    "English": "Why didn't you come?"
+  },
+  {
+    "Danish": "Hvad læser du?",
+    "English": "What are you reading?"
+  },
+  {
+    "Danish": "Hvad tænker du på?",
+    "English": "What are you thinking about?"
+  },
+  {
+    "Danish": "Er du sikker på at du ikke har glemt noget?",
+    "English": "Are you sure you haven't forgotten anything?"
+  },
+  {
+    "Danish": "Det vil intet ændre.",
+    "English": "That won't change anything."
+  },
+  {
+    "Danish": "Intet vil ændre min verden.",
+    "English": "Nothing's gonna change my world."
+  },
+  {
+    "Danish": "Hvad er det lavet af?",
+    "English": "What's it made from?"
+  },
+  {
+    "Danish": "Kan jeg hjælpe dig?",
+    "English": "Can I help you?"
+  },
+  {
+    "Danish": "Ligegyldigt hvad der sker, vil jeg ikke blive overrasket.",
+    "English": "No matter what happens, I won't be surprised."
+  },
+  {
+    "Danish": "Jeg har noget kendskab til kemi.",
+    "English": "I have some acquaintance with chemistry."
+  },
+  {
+    "Danish": "Jeg er en helt.",
+    "English": "I'm a hero."
+  },
+  {
+    "Danish": "Se på huset med det røde tag.",
+    "English": "Look at the house with the red roof."
+  },
+  {
+    "Danish": "Huset med det ødelagte tag er blevet repareret.",
+    "English": "The house with the damaged roof has been repaired."
+  },
+  {
+    "Danish": "Vil du være så venlig at række mig saltet?",
+    "English": "Please pass me the salt."
+  },
+  {
+    "Danish": "Vi så tårnet i det fjerne.",
+    "English": "We saw the tower in the distance."
+  },
+  {
+    "Danish": "Jeg hørte en hund gø i det fjerne.",
+    "English": "I heard a dog barking in the distance."
+  },
+  {
+    "Danish": "Jeg måtte løbe til stationen.",
+    "English": "I had to run to the station."
+  },
+  {
+    "Danish": "Kan du fortælle mig vejen til stationen?",
+    "English": "Can you tell me how to get to the station?"
+  },
+  {
+    "Danish": "Der er to miles til banegården.",
+    "English": "The station is two miles away."
+  },
+  {
+    "Danish": "Det engelske hold slog det brasilianske hold i den internationale fodboldturnering.",
+    "English": "The English team beat the Brazilian team in the international football tournament."
+  },
+  {
+    "Danish": "Skal jeg svare på engelsk?",
+    "English": "Must I answer in English?"
+  },
+  {
+    "Danish": "Jeg ville ønske jeg kunne svømme.",
+    "English": "I wish I could swim."
+  },
+  {
+    "Danish": "Jeg vil altid elske dig.",
+    "English": "I will love you always."
+  },
+  {
+    "Danish": "Kunne du lide filmen?",
+    "English": "Did you enjoy the film?"
+  },
+  {
+    "Danish": "Hvornår begynder filmen?",
+    "English": "When does the movie start?"
+  },
+  {
+    "Danish": "Hvad tid begynder filmen?",
+    "English": "When does the movie start?"
+  },
+  {
+    "Danish": "Filmen var så trist at alle græd.",
+    "English": "The movie was so sad that everybody cried."
+  },
+  {
+    "Danish": "Filmen var så sørgelig at alle græd.",
+    "English": "The movie was so sad that everybody cried."
+  },
+  {
+    "Danish": "Efter filmen faldt de i søvn.",
+    "English": "After the movie they fall asleep."
+  },
+  {
+    "Danish": "Du skal overholde færdselsloven når du kører.",
+    "English": "You should obey the traffic laws when you drive."
+  },
+  {
+    "Danish": "Spænd sikkerhedsselen når du kører.",
+    "English": "Fasten your seat belt when you drive."
+  },
+  {
+    "Danish": "Drikkevand med syreregn påvirker helbredet.",
+    "English": "Acid rain in drinking water affects human health."
+  },
+  {
+    "Danish": "Lyn er et elektrisk fænomen.",
+    "English": "Lightning is an electrical phenomenon."
+  },
+  {
+    "Danish": "Jeg genkendte hende ved første blik.",
+    "English": "I recognized her at first glance."
+  },
+  {
+    "Danish": "Hvor er nærmeste bank?",
+    "English": "Where is the nearest bank?"
+  },
+  {
+    "Danish": "Det regnede kraftigt hele dagen.",
+    "English": "It rained hard all day."
+  },
+  {
+    "Danish": "Jeg måtte blive i sengen hele dagen.",
+    "English": "I had to stay in bed all day."
+  },
+  {
+    "Danish": "En dag har fireogtyve timer.",
+    "English": "A day has twenty-four hours."
+  },
+  {
+    "Danish": "Rom blev ikke bygget på en dag.",
+    "English": "Rome was not built in a day."
+  },
+  {
+    "Danish": "Hvad i alverden laver du her?",
+    "English": "What on earth are you doing here?"
+  },
+  {
+    "Danish": "Hvad i helvede laver du?",
+    "English": "What the devil are you doing?"
+  },
+  {
+    "Danish": "Hvad i djævlens navn laver du?",
+    "English": "What the devil are you doing?"
+  },
+  {
+    "Danish": "Du kan ikke løfte pianoet alene.",
+    "English": "You cannot lift the piano alone."
+  },
+  {
+    "Danish": "Hvor mange gange tager du bad om ugen?",
+    "English": "How often a week do you take a bath?"
+  },
+  {
+    "Danish": "Han sagde ikke et ord.",
+    "English": "He didn't say a word."
+  },
+  {
+    "Danish": "Januar er årets første måned.",
+    "English": "January is the first month of the year."
+  },
+  {
+    "Danish": "Hvis bare lægen var kommet lidt tidligere.",
+    "English": "If only the doctor had come a little sooner."
+  },
+  {
+    "Danish": "Han vil blive en god ægtemand.",
+    "English": "He'll make a good husband."
+  },
+  {
+    "Danish": "Hun er bevidstløs.",
+    "English": "She is unconscious."
+  },
+  {
+    "Danish": "Virkelig?",
+    "English": "You don't say."
+  },
+  {
+    "Danish": "Hans indflydelse i komiteen blev mindre og mindre.",
+    "English": "His influence in the committee became weaker and weaker."
+  },
+  {
+    "Danish": "Der plejede at være en kirke her.",
+    "English": "There used to be a church here."
+  },
+  {
+    "Danish": "Der plejede at være en lille helligdom heromkring.",
+    "English": "There used to be a small shrine around here."
+  },
+  {
+    "Danish": "Er det alt?",
+    "English": "Is that all?"
+  },
+  {
+    "Danish": "Mørke er fravær af lys.",
+    "English": "Darkness is the absence of light."
+  },
+  {
+    "Danish": "Jeg nåede frem til landsbyen før det blev mørkt.",
+    "English": "I reached the village before dark."
+  },
+  {
+    "Danish": "Jeg tog bussen for at nå frem før det blev mørkt.",
+    "English": "I took the bus in order to reach the destination before it got dark."
+  },
+  {
+    "Danish": "Det er ved at blive mørkt. Vær sød at tænde lyset for mig.",
+    "English": "It's getting dark. Please turn the light on for me."
+  },
+  {
+    "Danish": "Det er ved at blive mørkt. Du må hellere gå hjem.",
+    "English": "It's getting dark. You'd better go home."
+  },
+  {
+    "Danish": "Lad hende ikke gå ud når det er mørkt.",
+    "English": "Don't let her go out after dark."
+  },
+  {
+    "Danish": "Aoi blev danser.",
+    "English": "Aoi became a dancer."
+  },
+  {
+    "Danish": "Jeg giftede mig ikke med hende fordi jeg elskede hende.",
+    "English": "I didn't marry her because I loved her."
+  },
+  {
+    "Danish": "Vi stod ved døren og ventede.",
+    "English": "We stood at the door and waited."
+  },
+  {
+    "Danish": "Vores verden er kun en lille del af universet.",
+    "English": "Our world is only a small part of the universe."
+  },
+  {
+    "Danish": "Jeg ønskede ikke hans hjælp, men jeg måtte acceptere den.",
+    "English": "I didn't want his help, but I had to accept it."
+  },
+  {
+    "Danish": "Jeg holder af både hunde og katte.",
+    "English": "I like both dogs and cats."
+  },
+  {
+    "Danish": "Jeg svømmer en gang ugentlig.",
+    "English": "I swim once a week."
+  },
+  {
+    "Danish": "Jeg har intet at prale af.",
+    "English": "I have nothing to boast about."
+  },
+  {
+    "Danish": "Jeg har en kat og en hund.",
+    "English": "I have a cat and a dog."
+  },
+  {
+    "Danish": "Jeg er fra Kyoto.",
+    "English": "I'm from Kyoto."
+  },
+  {
+    "Danish": "Jeg var førsteårsstuderende i fjor.",
+    "English": "I was a first year student last year."
+  },
+  {
+    "Danish": "Jeg vil skrive et brev til Judy.",
+    "English": "I will write Judy a letter."
+  },
+  {
+    "Danish": "Jeg foretrækker kaffe frem for te.",
+    "English": "I prefer coffee to tea."
+  },
+  {
+    "Danish": "Jeg har en ven, hvis far er en kendt pianist.",
+    "English": "I have a friend whose father is a famous pianist."
+  },
+  {
+    "Danish": "Der er en kirke nær ved mit hus.",
+    "English": "There is a church near my house."
+  },
+  {
+    "Danish": "Robert havde for travlt, han blev nødt til at afslå en invitation til at spille golf.",
+    "English": "Robert was so busy he had to turn down an invitation to play golf."
+  },
+  {
+    "Danish": "Jeg spiser et æble.",
+    "English": "I am eating an apple."
+  },
+  {
+    "Danish": "Æbletræerne voksede sig gamle og nye blev plantet.",
+    "English": "The apple trees grew old and new ones were planted."
+  },
+  {
+    "Danish": "Tænd for radioen.",
+    "English": "Turn on the radio."
+  },
+  {
+    "Danish": "Vær så venlig at slukke lyset.",
+    "English": "Please turn off the light."
+  },
+  {
+    "Danish": "Jeg ville gerne se dig før jeg tager af sted til Europa.",
+    "English": "I'd like to see you before I leave for Europe."
+  },
+  {
+    "Danish": "Hvorfor ikke?",
+    "English": "Why not?"
+  },
+  {
+    "Danish": "Jeg hjælper dig selvfølgelig.",
+    "English": "I will help you, of course."
+  },
+  {
+    "Danish": "Hvis det regner i morgen, bliver jeg hjemme.",
+    "English": "If it rains tomorrow, I'll stay at home."
+  },
+  {
+    "Danish": "Hvis jeg var en fugl, så kunne jeg flyve hen til dig.",
+    "English": "If I were a bird, I could fly to you."
+  },
+  {
+    "Danish": "Hvis jeg var dig så ville jeg straks gå hjem.",
+    "English": "If I were you, I would go home at once."
+  },
+  {
+    "Danish": "Det vil have regnet en uge hvis ikke det holder op i morgen.",
+    "English": "It will have been raining for a week if it does not stop tomorrow."
+  },
+  {
+    "Danish": "Har du en lidt mindre?",
+    "English": "Do you have one a little smaller?"
+  },
+  {
+    "Danish": "Klokken er næsten 12.",
+    "English": "It is almost 12 o'clock."
+  },
+  {
+    "Danish": "Nej tak.",
+    "English": "No, thank you."
+  },
+  {
+    "Danish": "Giv mig en chance til.",
+    "English": "Give me a second chance."
+  },
+  {
+    "Danish": "Giv mig en chance til.",
+    "English": "Give me another chance."
+  },
+  {
+    "Danish": "Det er for meget!",
+    "English": "That's too much."
+  },
+  {
+    "Danish": "Har du nogensinde været i Mexico?",
+    "English": "Have you ever been to Mexico?"
+  },
+  {
+    "Danish": "Enhver har sin egen smag.",
+    "English": "Each has his own taste."
+  },
+  {
+    "Danish": "Mary har allerede begyndt.",
+    "English": "Mary has already started."
+  },
+  {
+    "Danish": "Alle er enige med dig.",
+    "English": "Everybody agrees with you."
+  },
+  {
+    "Danish": "Hvor er mælke-teen?",
+    "English": "Where is the milk tea?"
+  },
+  {
+    "Danish": "Jeg ønsker jer en god jul og et godt nytår.",
+    "English": "I wish you all a merry Christmas and a happy new year."
+  },
+  {
+    "Danish": "Jeg ønsker jer alle en glædelig jul og et godt nytår.",
+    "English": "I wish you all a merry Christmas and a happy new year."
+  },
+  {
+    "Danish": "Du må undskylde at jeg kom til at åbne dit brev ved et uheld.",
+    "English": "Excuse me for opening your letter by mistake."
+  },
+  {
+    "Danish": "Jeg håber du ringer igen.",
+    "English": "I hope you will call again."
+  },
+  {
+    "Danish": "Vi ses!",
+    "English": "See you again."
+  },
+  {
+    "Danish": "Vi har stadig masser af tid.",
+    "English": "We still have plenty of time."
+  },
+  {
+    "Danish": "Vi ses!",
+    "English": "See you soon!"
+  },
+  {
+    "Danish": "Mikrobølger gennemtrænger fødevarerne i ovnen.",
+    "English": "Microwaves penetrate the food in the oven."
+  },
+  {
+    "Danish": "Mike og Ken er venner.",
+    "English": "Mike and Ken are friends."
+  },
+  {
+    "Danish": "Ingen kunne i de dage gætte hvilken plads i historien Martin Luther King ville få.",
+    "English": "Nobody could have guessed, in those days, the place in history that Martin Luther King, Jr. was to have."
+  },
+  {
+    "Danish": "Alt i alt så var det en hyggelig fest.",
+    "English": "All in all, this was a nice party."
+  },
+  {
+    "Danish": "Bob er min ven.",
+    "English": "Bob is my friend."
+  },
+  {
+    "Danish": "Bob er populær i skolen.",
+    "English": "Bob is popular at school."
+  },
+  {
+    "Danish": "Bob har været forlovet med Mary i over et år.",
+    "English": "Bob has been engaged to Mary for over a year."
+  },
+  {
+    "Danish": "Næsten hver dag går han hen til floden og fisker.",
+    "English": "Almost every day he goes to the river and fishes."
+  },
+  {
+    "Danish": "Pas på lommetyve.",
+    "English": "Look out for pickpockets."
+  },
+  {
+    "Danish": "Drengen der ror båden er en af mine venner.",
+    "English": "The boy rowing the boat is a friend of mine."
+  },
+  {
+    "Danish": "Vi tog til søen for at ro i en båd.",
+    "English": "We went to the lake to row a boat."
+  },
+  {
+    "Danish": "Har du en pen?",
+    "English": "Do you have a pen?"
+  },
+  {
+    "Danish": "Kan jeg låne din pen?",
+    "English": "Can I borrow your pen?"
+  },
+  {
+    "Danish": "Henry ønsker at se dig.",
+    "English": "Henry wants to see you."
+  },
+  {
+    "Danish": "Henry vil se dig.",
+    "English": "Henry wants to see you."
+  },
+  {
+    "Danish": "Lad os sætte os på bænken.",
+    "English": "Let's sit down on the bench."
+  },
+  {
+    "Danish": "Betty slog ham ihjel.",
+    "English": "Betty killed him."
+  },
+  {
+    "Danish": "Betty sagde aldrig et ord.",
+    "English": "Betty never said a word."
+  },
+  {
+    "Danish": "Betty lagde sig på sengen.",
+    "English": "Betty laid herself on the bed."
+  },
+  {
+    "Danish": "Der er en kat under sengen.",
+    "English": "There is a cat under the bed."
+  },
+  {
+    "Danish": "Tak for din gave.",
+    "English": "Thank you for your present."
+  },
+  {
+    "Danish": "Bremsens funktion er at stoppe bilen.",
+    "English": "The function of the brake is to stop the car."
+  },
+  {
+    "Danish": "Fransk er vanskeligt at lære.",
+    "English": "French is difficult to learn."
+  },
+  {
+    "Danish": "Fransk tales i Frankrig.",
+    "English": "French is spoken in France."
+  },
+  {
+    "Danish": "Plastic har ikke let ved at brænde.",
+    "English": "Plastic does not burn easily."
+  },
+  {
+    "Danish": "Plastik har ikke let ved at brænde.",
+    "English": "Plastic does not burn easily."
+  },
+  {
+    "Danish": "Jeg spørger mig selv om hvilket sprog man taler i Brasilien.",
+    "English": "I wonder what language they speak in Brazil."
+  },
+  {
+    "Danish": "Hr. Brown er vores finansrådgiver.",
+    "English": "Mr Brown is our financial adviser."
+  },
+  {
+    "Danish": "Hiromi har en ny kjole på.",
+    "English": "Hiromi wears a new dress."
+  },
+  {
+    "Danish": "Der står en bil foran bygningen.",
+    "English": "There is a car in front of the building."
+  },
+  {
+    "Danish": "Dette er et forfærdeligt klima.",
+    "English": "This is a terrible climate."
+  },
+  {
+    "Danish": "Det var et skrækkeligt vejr.",
+    "English": "It was dreadful weather."
+  },
+  {
+    "Danish": "Picasso er en berømt kunstner.",
+    "English": "Picasso is a famous artist."
+  },
+  {
+    "Danish": "Ølflasker er lavet af glas.",
+    "English": "Beer bottles are made of glass."
+  },
+  {
+    "Danish": "Jeg drikker ikke meget øl.",
+    "English": "I don't drink much beer."
+  },
+  {
+    "Danish": "Lad os tage til stranden.",
+    "English": "Let's go to the beach."
+  },
+  {
+    "Danish": "Der er ikke langt til Paris.",
+    "English": "It is not far to Paris."
+  },
+  {
+    "Danish": "Roser blomstrer om foråret.",
+    "English": "The roses bloom in spring."
+  },
+  {
+    "Danish": "Hvem skrev Hamlet?",
+    "English": "Who wrote Hamlet?"
+  },
+  {
+    "Danish": "To vaniljeis, tak.",
+    "English": "Two vanilla ice creams, please."
+  },
+  {
+    "Danish": "Duen er et berømt symbol for fred.",
+    "English": "The dove is a famous symbol for peace."
+  },
+  {
+    "Danish": "Pat er meget snakkesalig.",
+    "English": "Pat is very talkative."
+  },
+  {
+    "Danish": "Der var ikke synlige farer.",
+    "English": "There were no visible dangers."
+  },
+  {
+    "Danish": "En bi fløj ud ad vinduet.",
+    "English": "A bee flew out of the window."
+  },
+  {
+    "Danish": "Brød og smør er min sædvanlige morgenmad.",
+    "English": "Bread and butter is my usual breakfast."
+  },
+  {
+    "Danish": "Jeg spiste intet bortset fra brød og smør.",
+    "English": "I ate nothing but bread and butter."
+  },
+  {
+    "Danish": "Brød og smør er deres sædvanlige morgenmad.",
+    "English": "Bread and butter is their usual breakfast."
+  },
+  {
+    "Danish": "Smør laver man af mælk.",
+    "English": "Butter is made from milk."
+  },
+  {
+    "Danish": "Smør er lavet af mælk.",
+    "English": "Butter is made from milk."
+  },
+  {
+    "Danish": "Busbilletpriserne har været uændrede i to år.",
+    "English": "Bus rates have stayed the same for two years."
+  },
+  {
+    "Danish": "Vis mig vejen til busstoppestedet.",
+    "English": "Show me the way to the bus stop."
+  },
+  {
+    "Danish": "Tager du til Tokyo med bus?",
+    "English": "Will you go to Tokyo by bus?"
+  },
+  {
+    "Danish": "Jeg stødte på en gammel ven i bussen.",
+    "English": "I bumped into an old friend on the bus."
+  },
+  {
+    "Danish": "Hvor lang tid vil det tage mig at komme derhen med bus?",
+    "English": "How long will it take me to get there by bus?"
+  },
+  {
+    "Danish": "Flere end halvtreds piger var til stede ved festen.",
+    "English": "There were more than fifty girls at the party."
+  },
+  {
+    "Danish": "Kan du komme til festen?",
+    "English": "Can you come to the party?"
+  },
+  {
+    "Danish": "Vil du gifte dig med mig?",
+    "English": "Will you marry me?"
+  },
+  {
+    "Danish": "Gulerødder og majroer er spiselige rødder.",
+    "English": "Carrots and turnips are edible roots."
+  },
+  {
+    "Danish": "New York er den største by i verden.",
+    "English": "New York is the biggest city in the world."
+  },
+  {
+    "Danish": "Vejret i New York er om sommeren varmt og fugtigt.",
+    "English": "New York weather is hot and humid in the summer."
+  },
+  {
+    "Danish": "Nick skylder mig ti dollar.",
+    "English": "Nick owes me ten dollars."
+  },
+  {
+    "Danish": "Hvor er det en trist historie.",
+    "English": "How sad a story this is!"
+  },
+  {
+    "Danish": "Hun sagde, \"Hvor ser han selvsikker ud!",
+    "English": "She said, \"How confident he looks!"
+  },
+  {
+    "Danish": "Sikke en ond fyr.",
+    "English": "What a mean fellow!"
+  },
+  {
+    "Danish": "Da jeg ikke vidste hvad jeg skulle svare, tav jeg.",
+    "English": "Not knowing what to answer, I kept silent."
+  },
+  {
+    "Danish": "Sikke en stor hund!",
+    "English": "What a big dog that is!"
+  },
+  {
+    "Danish": "Sikke et dejligt dyr!",
+    "English": "What a lovely creature!"
+  },
+  {
+    "Danish": "Sikke en vidunderlig opfindelse!",
+    "English": "What a wonderful invention!"
+  },
+  {
+    "Danish": "Sikke en tung taske!",
+    "English": "What a heavy bag!"
+  },
+  {
+    "Danish": "Nancy vil have et par røde sko.",
+    "English": "Nancy wants a pair of red shoes."
+  },
+  {
+    "Danish": "Nancy, her er et brev til dig.",
+    "English": "Nancy, here's a letter for you."
+  },
+  {
+    "Danish": "Jeg er stadig single.",
+    "English": "I'm still single."
+  },
+  {
+    "Danish": "Nej, det er brugt.",
+    "English": "No, it's second hand."
+  },
+  {
+    "Danish": "Hvorfor afslog du hans tilbud?",
+    "English": "Why did you turn down his offer?"
+  },
+  {
+    "Danish": "Hvorfor tog du ikke imod hans tilbud?",
+    "English": "Why did you turn down his offer?"
+  },
+  {
+    "Danish": "Hvorfor græder du?",
+    "English": "Why are you crying?"
+  },
+  {
+    "Danish": "Hvorfor troede du ikke på mig?",
+    "English": "Why didn't you believe me?"
+  },
+  {
+    "Danish": "Hvorfor stod du så tidligt op?",
+    "English": "Why did you get up so early?"
+  },
+  {
+    "Danish": "Hvorfor er dine øjne så store?",
+    "English": "Why are your eyes so big?"
+  },
+  {
+    "Danish": "Ingen flod i verden er længere end Nilen.",
+    "English": "No river in the world is longer than the Nile."
+  },
+  {
+    "Danish": "Hvad laver denne stol her?",
+    "English": "What's this chair doing here?"
+  },
+  {
+    "Danish": "Hvordan er vejret?",
+    "English": "How's the weather?"
+  },
+  {
+    "Danish": "Hvilken type information finder du på internettet?",
+    "English": "What sort of information do you get on the Internet?"
+  },
+  {
+    "Danish": "Hvor længe vil dette tov holde?",
+    "English": "How long will this rope hold?"
+  },
+  {
+    "Danish": "Hvem er stærkest, en tiger eller en løve?",
+    "English": "Which is stronger, a tiger or a lion?"
+  },
+  {
+    "Danish": "Tom er en dreng der er for ærlig til at lyve.",
+    "English": "Tom is too honest a boy to tell a lie."
+  },
+  {
+    "Danish": "Tom er ældre end mig.",
+    "English": "Tom is older than I."
+  },
+  {
+    "Danish": "Tom har øje for moderne kunst.",
+    "English": "Tom has an eye for modern art."
+  },
+  {
+    "Danish": "Tom kan endnu ikke svømme.",
+    "English": "Tom is not yet able to swim."
+  },
+  {
+    "Danish": "Kan Tom lide tomater?",
+    "English": "Does Tom like tomatoes?"
+  },
+  {
+    "Danish": "Tom kom løbende med et brev fra Judy.",
+    "English": "Tom came running with a letter from Judy."
+  },
+  {
+    "Danish": "Ikke alle børn kan lide æbler.",
+    "English": "Not all children like apples."
+  },
+  {
+    "Danish": "Hvilken hund er din?",
+    "English": "Which dog is yours?"
+  },
+  {
+    "Danish": "Hvor længe skal jeg endnu blive på sygehuset?",
+    "English": "How much longer will I have to stay in the hospital?"
+  },
+  {
+    "Danish": "Hvor højt er det?",
+    "English": "How high is it?"
+  },
+  {
+    "Danish": "Donna blev født med en sølvske i munden.",
+    "English": "Donna was born with a silver spoon in her mouth."
+  },
+  {
+    "Danish": "Det var meget svært.",
+    "English": "It was very difficult."
+  },
+  {
+    "Danish": "Det er lige meget.",
+    "English": "It doesn't matter."
+  },
+  {
+    "Danish": "Tag den du bedst kan lide, lige meget hvilken det er.",
+    "English": "Take the one you like best, whichever it is."
+  },
+  {
+    "Danish": "Forresten, spiller du violin?",
+    "English": "By the way, do you play the violin?"
+  },
+  {
+    "Danish": "Hvor bor du, for resten?",
+    "English": "By the way, where do you live?"
+  },
+  {
+    "Danish": "Hvor bor du, forresten?",
+    "English": "By the way, where do you live?"
+  },
+  {
+    "Danish": "Hvor end du går hen, vil du aldrig finde et bedre sted end dit eget hjem.",
+    "English": "Wherever you may go, you will not find a better place than your home."
+  },
+  {
+    "Danish": "Hvorfor malede du bænken rød?",
+    "English": "Why did you paint the bench red?"
+  },
+  {
+    "Danish": "Væk mig venligst klokken seks i morgen tidlig.",
+    "English": "Please wake me up at six tomorrow morning."
+  },
+  {
+    "Danish": "Kan jeg få dig til at åbne døren for mig?",
+    "English": "Would you be so kind as to open the door for me?"
+  },
+  {
+    "Danish": "Hvordan har du det?",
+    "English": "How are you doing?"
+  },
+  {
+    "Danish": "Hvordan går det?",
+    "English": "How are you doing?"
+  },
+  {
+    "Danish": "Hvor er toilettet?",
+    "English": "Where's the restroom?"
+  },
+  {
+    "Danish": "Hvor er badeværelset?",
+    "English": "Where's the restroom?"
+  },
+  {
+    "Danish": "Hvor er toilettet?",
+    "English": "Where is the toilet?"
+  },
+  {
+    "Danish": "Hvor er badeværelset?",
+    "English": "Where is the toilet?"
+  },
+  {
+    "Danish": "Hvor er toilettet?",
+    "English": "Where's the toilet?"
+  },
+  {
+    "Danish": "Hvor er badeværelset?",
+    "English": "Where's the toilet?"
+  },
+  {
+    "Danish": "Jeg åbnede døren og så to drenge som stod ved siden af hinanden.",
+    "English": "I opened the door and saw two boys standing side by side."
+  },
+  {
+    "Danish": "Cyklen ved døren er min.",
+    "English": "The bicycle by the door is mine."
+  },
+  {
+    "Danish": "Døren var låst, så jeg kunne ikke komme ind.",
+    "English": "The door was locked, so I couldn't get in."
+  },
+  {
+    "Danish": "Lad os se tv.",
+    "English": "Let's watch TV."
+  },
+  {
+    "Danish": "Lad os se fjernsyn.",
+    "English": "Let's watch TV."
+  },
+  {
+    "Danish": "Kan du venligst skrue ned for fjernsynet?",
+    "English": "Could you please turn your television down?"
+  },
+  {
+    "Danish": "Vil du være så venlig at skrue ned fjernsynet?",
+    "English": "Could you please turn your television down?"
+  },
+  {
+    "Danish": "Jeg tror Delbert er gal.",
+    "English": "I think that Delbert is crazy."
+  },
+  {
+    "Danish": "Men vi er netop nu på vej hjem.",
+    "English": "But we're just on our way home."
+  },
+  {
+    "Danish": "Du burde starte så tidligt som muligt.",
+    "English": "You should start as early as possible."
+  },
+  {
+    "Danish": "Der er en flaske vin på bordet.",
+    "English": "There is a bottle of wine on the table."
+  },
+  {
+    "Danish": "Én svale gør ingen sommer.",
+    "English": "One swallow does not make a summer."
+  },
+  {
+    "Danish": "Chokolade smager sødt.",
+    "English": "Chocolate tastes sweet."
+  },
+  {
+    "Danish": "Dan kan lide at lave modelbiler.",
+    "English": "Dan likes to make model cars."
+  },
+  {
+    "Danish": "Dagene bliver længere og længere.",
+    "English": "The days are getting longer and longer."
+  },
+  {
+    "Danish": "Ingen ved, hvorfor han forlod byen.",
+    "English": "Nobody knows why he left the town."
+  },
+  {
+    "Danish": "Og hvad så?",
+    "English": "Who cares?"
+  },
+  {
+    "Danish": "Hvem skrev denne bog?",
+    "English": "Who wrote this book?"
+  },
+  {
+    "Danish": "Har du noget imod at jeg ryger?",
+    "English": "Do you mind my smoking?"
+  },
+  {
+    "Danish": "Du kan få denne bog for ingenting.",
+    "English": "You can have this book for nothing."
+  },
+  {
+    "Danish": "Du kan få denne bog gratis.",
+    "English": "You can have this book for nothing."
+  },
+  {
+    "Danish": "De fleste japanske templer er lavet af træ.",
+    "English": "Most Japanese temples are made of wood."
+  },
+  {
+    "Danish": "Titanic sank på sin jomfrurejse.",
+    "English": "The Titanic sunk on its maiden voyage."
+  },
+  {
+    "Danish": "Det var i 1912 at Titanic sank under sin første rejse.",
+    "English": "It was in 1912 that the Titanic sank during her first voyage."
+  },
+  {
+    "Danish": "Alt i alt er jeg tilfreds med resultatet.",
+    "English": "On the whole I am satisfied with the result."
+  },
+  {
+    "Danish": "Det er cirka 8 kilometer væk.",
+    "English": "It's about 8 kilometers away."
+  },
+  {
+    "Danish": "Klokken er næsten seks.",
+    "English": "It's almost six o'clock."
+  },
+  {
+    "Danish": "Hun dumpede eksamen, og jeg blev meget skuffet.",
+    "English": "She failed the examination and I was greatly disappointed."
+  },
+  {
+    "Danish": "Vi havde ikke mange problemer.",
+    "English": "We didn't have much trouble."
+  },
+  {
+    "Danish": "Det er lige meget.",
+    "English": "That doesn't matter."
+  },
+  {
+    "Danish": "Hvordan går det med din slankekur?",
+    "English": "How's your diet kick?"
+  },
+  {
+    "Danish": "Hvorfor går du ikke på kur?",
+    "English": "Why don't you go on a diet?"
+  },
+  {
+    "Danish": "Diane er også din halvsøster, George.",
+    "English": "Diane is your half-sister too, George."
+  },
+  {
+    "Danish": "Det er umuligt.",
+    "English": "That's impossible."
+  },
+  {
+    "Danish": "Det er bare en undskyldning.",
+    "English": "That's just an excuse."
+  },
+  {
+    "Danish": "Vær ikke så sur.",
+    "English": "Don't be so angry."
+  },
+  {
+    "Danish": "Gå ikke så hurtigt! Jeg kan ikke følge med.",
+    "English": "Don't walk so fast! I can't keep up with you."
+  },
+  {
+    "Danish": "Løb ikke så hurtigt.",
+    "English": "Don't run so fast."
+  },
+  {
+    "Danish": "Det kan ikke være sandt.",
+    "English": "That can't be true."
+  },
+  {
+    "Danish": "Jeg har ikke set hende siden dengang.",
+    "English": "I haven't seen her since then."
+  },
+  {
+    "Danish": "Sig mig hvad jeg skal gøre ved det.",
+    "English": "Tell me what to do with it."
+  },
+  {
+    "Danish": "Jeg solgte den for ti dollars.",
+    "English": "I sold it for ten dollars."
+  },
+  {
+    "Danish": "Jeg solgte den for ti dollar.",
+    "English": "I sold it for ten dollars."
+  },
+  {
+    "Danish": "De æbler er meget store.",
+    "English": "They are very big apples."
+  },
+  {
+    "Danish": "De bøger er mine.",
+    "English": "Those books are mine."
+  },
+  {
+    "Danish": "Vær så venlig at vise mig billederne.",
+    "English": "Show me the photos, please."
+  },
+  {
+    "Danish": "Bevar den på et koldt sted.",
+    "English": "Keep it in a cool place."
+  },
+  {
+    "Danish": "Det er gratis.",
+    "English": "It's free of charge."
+  },
+  {
+    "Danish": "Jeg tror at det er sandt.",
+    "English": "I think it's true."
+  },
+  {
+    "Danish": "Det var et stort chok for mig.",
+    "English": "It was a great shock to me."
+  },
+  {
+    "Danish": "Jeg er træt af at høre det.",
+    "English": "I am tired of hearing it."
+  },
+  {
+    "Danish": "Det er ikke vanskeligt at gøre.",
+    "English": "It isn't hard to do."
+  },
+  {
+    "Danish": "Det er rapporteret i de lokale nyheder.",
+    "English": "It is reported in the local news."
+  },
+  {
+    "Danish": "Hvis ide var det?",
+    "English": "Whose idea was it?"
+  },
+  {
+    "Danish": "Det der er en dukke.",
+    "English": "That's a doll."
+  },
+  {
+    "Danish": "Er det din?",
+    "English": "Is it yours?"
+  },
+  {
+    "Danish": "Er det jeres?",
+    "English": "Is it yours?"
+  },
+  {
+    "Danish": "Det er mig.",
+    "English": "It's me."
+  },
+  {
+    "Danish": "Det rager ikke dig!",
+    "English": "It is none of your business."
+  },
+  {
+    "Danish": "Det var en hundreddollarseddel.",
+    "English": "It was a one hundred dollar bill."
+  },
+  {
+    "Danish": "Det er mig lige meget.",
+    "English": "It's the same to me."
+  },
+  {
+    "Danish": "Hvad er det?",
+    "English": "What is it?"
+  },
+  {
+    "Danish": "Betaler du med kontanter eller med check?",
+    "English": "Do you pay for it in cash or by check?"
+  },
+  {
+    "Danish": "Jeg ved ikke hvad det er.",
+    "English": "I don't know what it is."
+  },
+  {
+    "Danish": "Hvad betyder det?",
+    "English": "What does it mean?"
+  },
+  {
+    "Danish": "Toget er allerede kørt.",
+    "English": "The train has already left."
+  },
+  {
+    "Danish": "Jeg skyndte mig for ikke at komme for sent til toget.",
+    "English": "I hurried so as not to miss the train."
+  },
+  {
+    "Danish": "Stormen gjorde stor skade på hendes ejendom.",
+    "English": "The storm did great damage to her property."
+  },
+  {
+    "Danish": "Jeg løste let problemet.",
+    "English": "I solved the problem easily."
+  },
+  {
+    "Danish": "Det er vanskeligt at løse dette problem.",
+    "English": "The problem is difficult to solve."
+  },
+  {
+    "Danish": "Enken var klædt i sort.",
+    "English": "The widow was dressed in black."
+  },
+  {
+    "Danish": "Jeg husker at jeg har afleveret bogen på biblioteket.",
+    "English": "I remember returning the book to the library."
+  },
+  {
+    "Danish": "Der var ikke en stjerne at se den nat.",
+    "English": "Not a star was to be seen that night."
+  },
+  {
+    "Danish": "Toget ankom til Kyoto til tiden.",
+    "English": "The train arrived in Kyoto on time."
+  },
+  {
+    "Danish": "Fuglen var halvt så stor som en ørn.",
+    "English": "The bird was half as large as an eagle."
+  },
+  {
+    "Danish": "Fuglen spredte sine vinger.",
+    "English": "The bird spread its wings."
+  },
+  {
+    "Danish": "Fuglen var halvt så stor som en høg.",
+    "English": "The bird was half the size of a hawk."
+  },
+  {
+    "Danish": "Fuglen er i sin rede.",
+    "English": "The bird is in its nest."
+  },
+  {
+    "Danish": "Er fuglen død eller levende?",
+    "English": "Is the bird alive or dead?"
+  },
+  {
+    "Danish": "Fuglene er så tamme at de vil spise af din hånd.",
+    "English": "The birds are so tame they will eat from your hand."
+  },
+  {
+    "Danish": "Del dens længde og bredde med ti.",
+    "English": "Divide its length and breadth by ten."
+  },
+  {
+    "Danish": "Byen har en stor befolkningsmængde.",
+    "English": "The city has a large population."
+  },
+  {
+    "Danish": "Byen har mange indbyggere.",
+    "English": "The city has a large population."
+  },
+  {
+    "Danish": "Jordskælvet rystede husene.",
+    "English": "The earthquake shook the houses."
+  },
+  {
+    "Danish": "Manden pustede røg i hovedet på hende.",
+    "English": "The man puffed smoke into her face."
+  },
+  {
+    "Danish": "Manden opførte sig meget mærkelig.",
+    "English": "The man's behavior was very odd."
+  },
+  {
+    "Danish": "Floden løber gennem dalen.",
+    "English": "The river runs through the valley."
+  },
+  {
+    "Danish": "Tyfonen ødelagde mange huse.",
+    "English": "The typhoon destroyed many houses."
+  },
+  {
+    "Danish": "Isen er tyk nok til at man kan gå på den.",
+    "English": "The ice is thick enough to walk on."
+  },
+  {
+    "Danish": "Drengen kom løbende.",
+    "English": "The boy came running."
+  },
+  {
+    "Danish": "Drengen sad på en stol.",
+    "English": "The boy sat on a chair."
+  },
+  {
+    "Danish": "Det er som om der er noget mærkeligt med den dreng.",
+    "English": "There seems to be something peculiar about the boy."
+  },
+  {
+    "Danish": "Pigen tror stadig på julemanden.",
+    "English": "The girl still believes in Santa Claus."
+  },
+  {
+    "Danish": "Billedet minder mig om min barndom.",
+    "English": "This photo takes me back to my childhood."
+  },
+  {
+    "Danish": "Laboratoriet har det nyeste udstyr.",
+    "English": "The laboratory has the most up-to-date equipment."
+  },
+  {
+    "Danish": "Det er forsøgspersonernes holdninger der afgør hvordan eksperimentet falder ud.",
+    "English": "It is the attitude of the subjects that controls the outcome of the experiment."
+  },
+  {
+    "Danish": "Uret er lavet i Schweiz.",
+    "English": "The watch is manufactured in Switzerland."
+  },
+  {
+    "Danish": "Jeg har ikke hørt fra ham siden.",
+    "English": "I haven't heard from him since then."
+  },
+  {
+    "Danish": "Ordbogen indeholder cirka en halv million ord.",
+    "English": "The dictionary contains about half a million words."
+  },
+  {
+    "Danish": "Ordbogen indeholder omtrent en halv million ord.",
+    "English": "The dictionary contains about half a million words."
+  },
+  {
+    "Danish": "Hvor mange personer blev dræbt i butikken?",
+    "English": "How many people were killed in the store?"
+  },
+  {
+    "Danish": "Han mistede næsten livet i den ulykke.",
+    "English": "The accident almost cost him his life."
+  },
+  {
+    "Danish": "Poeten sørger for at tage hensyn til humanismen før alt andet.",
+    "English": "The poet always takes account of humanism before everything."
+  },
+  {
+    "Danish": "Hvorledes føles papiret?",
+    "English": "How does the paper feel?"
+  },
+  {
+    "Danish": "Fold papiret på midten.",
+    "English": "Fold the paper in the middle."
+  },
+  {
+    "Danish": "Søens vand er meget koldt.",
+    "English": "The water of the lake is very cold."
+  },
+  {
+    "Danish": "Vandet i søen er meget koldt.",
+    "English": "The water of the lake is very cold."
+  },
+  {
+    "Danish": "Hunden løb efter katten.",
+    "English": "The dog ran after the cat."
+  },
+  {
+    "Danish": "Hunden kaldes 'Spot' af familien.",
+    "English": "The dog is called Spot by the family."
+  },
+  {
+    "Danish": "Denne hund er næsten menneskelig.",
+    "English": "This dog is almost human."
+  },
+  {
+    "Danish": "Du kan købe den hund hvis du vil. Den er til salg.",
+    "English": "You can buy that dog if you want to. It is for sale."
+  },
+  {
+    "Danish": "Sørg for at hunden ikke slipper fri.",
+    "English": "Make sure that the dog does not escape."
+  },
+  {
+    "Danish": "Jeg kan lide hunden.",
+    "English": "I like the dog."
+  },
+  {
+    "Danish": "Jeg fandt det let at finde bygningen.",
+    "English": "I found it easy to find the building."
+  },
+  {
+    "Danish": "Vi er ikke alene om at støtte planen.",
+    "English": "We are not alone in supporting the plan."
+  },
+  {
+    "Danish": "Banken åbner klokken 9 og lukker klokken 15.",
+    "English": "The bank opens at 9 a.m. and closes at 3 p.m."
+  },
+  {
+    "Danish": "Brug pengene fornuftigt.",
+    "English": "You have to use the money wisely."
+  },
+  {
+    "Danish": "Fejlen kostede ham hovedet.",
+    "English": "The mistake cost him his head."
+  },
+  {
+    "Danish": "Udlændingen vænnede sig hurtigt til den japanske mad.",
+    "English": "The foreigner soon got used to Japanese food."
+  },
+  {
+    "Danish": "Lad os synge sangen på engelsk.",
+    "English": "Let's sing the song in English."
+  },
+  {
+    "Danish": "Filmen var interessant.",
+    "English": "The movie was interesting."
+  },
+  {
+    "Danish": "Kun fire heste deltog i kapløbet.",
+    "English": "Only four horses competed in the race."
+  },
+  {
+    "Danish": "Hotellet står på en bakke.",
+    "English": "The hotel stands on a hill."
+  },
+  {
+    "Danish": "Bussen var forsinket.",
+    "English": "The bus was behind schedule."
+  },
+  {
+    "Danish": "Dette tv-apparat er både stort og dyrt.",
+    "English": "That television is both big and expensive."
+  },
+  {
+    "Danish": "Hvem træner holdet?",
+    "English": "Who coaches the team?"
+  },
+  {
+    "Danish": "Computeren er ny.",
+    "English": "The computer is new."
+  },
+  {
+    "Danish": "Lad mig tænke over det et par dage.",
+    "English": "Let me think it over for a couple of days."
+  },
+  {
+    "Danish": "Sagde han noget om det til dig?",
+    "English": "Did he say anything about it to you?"
+  },
+  {
+    "Danish": "Klubben har flere end 50 medlemmer.",
+    "English": "The club has more than fifty members."
+  },
+  {
+    "Danish": "Der er noget galt med motoren.",
+    "English": "Something is wrong with the engine."
+  },
+  {
+    "Danish": "Hvem står der?",
+    "English": "Who is standing there?"
+  },
+  {
+    "Danish": "Hvad vil du leve af mens du er der?",
+    "English": "What will you live on while you are there?"
+  },
+  {
+    "Danish": "Lommetyven forsvandt i folkemængden.",
+    "English": "The pickpocket disappeared into the crowd."
+  },
+  {
+    "Danish": "Pas på lommetyve.",
+    "English": "Beware of pickpockets."
+  },
+  {
+    "Danish": "Hr. Smith glæder sig over sin søns succes.",
+    "English": "Mr Smith is pleased at his son's success."
+  },
+  {
+    "Danish": "Alle heste er dyr, men ikke alle dyr er heste.",
+    "English": "All horses are animals, but not all animals are horses."
+  },
+  {
+    "Danish": "Ikke alle fugle kan flyve.",
+    "English": "Not all birds can fly."
+  },
+  {
+    "Danish": "Ikke enhver fugl kan synge.",
+    "English": "Not every bird can sing."
+  },
+  {
+    "Danish": "Ikke alle studenterne var til stede.",
+    "English": "Not all the students were present."
+  },
+  {
+    "Danish": "Alt er fint.",
+    "English": "Everything is OK."
+  },
+  {
+    "Danish": "Alt er o.k.",
+    "English": "Everything is OK."
+  },
+  {
+    "Danish": "Det er for meget!",
+    "English": "That's too much!"
+  },
+  {
+    "Danish": "Jeg kommer.",
+    "English": "I'm coming."
+  },
+  {
+    "Danish": "Den er snart parat.",
+    "English": "It will be ready soon."
+  },
+  {
+    "Danish": "Jill er forlovet med Jack.",
+    "English": "Jill is engaged to Jack."
+  },
+  {
+    "Danish": "John har en bil der er fremstillet i Japan.",
+    "English": "John has a car made in Japan."
+  },
+  {
+    "Danish": "John har en bil der er lavet i Japan.",
+    "English": "John has a car made in Japan."
+  },
+  {
+    "Danish": "John kom løbende ind i værelset.",
+    "English": "John came running into the room."
+  },
+  {
+    "Danish": "John skriver til sine forældre en gang om måneden.",
+    "English": "John writes a letter to his parents once a month."
+  },
+  {
+    "Danish": "John er en amerikansk dreng.",
+    "English": "John is an American boy."
+  },
+  {
+    "Danish": "Jeg har kendt John siden 1976.",
+    "English": "I have known John since 1976."
+  },
+  {
+    "Danish": "John og Mary har kendt hinanden siden 1976.",
+    "English": "John and Mary have known each other since 1976."
+  },
+  {
+    "Danish": "John og Ann holder af hinanden.",
+    "English": "John and Ann like each other."
+  },
+  {
+    "Danish": "Det var så sent som i går, at John fortalte mig om hans plan om at tage til Europa.",
+    "English": "It was only yesterday that John told me about his plan to go to Europe."
+  },
+  {
+    "Danish": "Jones blev født i De Forenede Stater.",
+    "English": "Jones was born in the United States."
+  },
+  {
+    "Danish": "George, hvis du ikke lytter til radioen, så sluk den.",
+    "English": "George, if you are not listening to the radio, turn it off."
+  },
+  {
+    "Danish": "Jack taler engelsk.",
+    "English": "Jack speaks English."
+  },
+  {
+    "Danish": "Hvordan kommer Jim i skole? \"Han tager bussen.",
+    "English": "How does Jim go to school? \"He goes by bus."
+  },
+  {
+    "Danish": "Men de vil komme her i morgen.",
+    "English": "But they will come here tomorrow."
+  },
+  {
+    "Danish": "Men vi kan ikke forstå ham.",
+    "English": "But we can't understand him."
+  },
+  {
+    "Danish": "Men hun holdt af børn og nød sit arbejde.",
+    "English": "But she liked children and she enjoyed her work."
+  },
+  {
+    "Danish": "Hendes beslutning om at flytte til Chicago overraskede os.",
+    "English": "Her decision to move to Chicago surprised us."
+  },
+  {
+    "Danish": "Sally gav ham en julegave.",
+    "English": "Sally gave him a Christmas present."
+  },
+  {
+    "Danish": "Sakuras måde at tale på går mig på nerverne.",
+    "English": "Sakura's way of speaking gets on my nerves."
+  },
+  {
+    "Danish": "En computer er en kompleks maskine.",
+    "English": "A computer is a complex machine."
+  },
+  {
+    "Danish": "Det er en fordel at kunne bruge en computer.",
+    "English": "It is an advantage to be able to use a computer."
+  },
+  {
+    "Danish": "Beklager at have ladet dig vente så længe.",
+    "English": "I am sorry to have kept you waiting so long."
+  },
+  {
+    "Danish": "Jeg har aldrig før set en så stor vandmelon.",
+    "English": "I've never seen such a giant watermelon!"
+  },
+  {
+    "Danish": "Beklager at have ladet dig vente så længe.",
+    "English": "I'm sorry to have kept you waiting so long."
+  },
+  {
+    "Danish": "Præmier uddeles ved slutningen af konkurrencen.",
+    "English": "Prizes will be awarded at the end of the contest."
+  },
+  {
+    "Danish": "Columbus opdagede Amerika i 1492.",
+    "English": "Columbus discovered America in 1492."
+  },
+  {
+    "Danish": "Christoffer Columbus opdagede Amerika i året 1492.",
+    "English": "Columbus discovered America in 1492."
+  },
+  {
+    "Danish": "Dette minder mig om hjem.",
+    "English": "This reminds me of home."
+  },
+  {
+    "Danish": "Disse grønne blade bliver røde eller gule om efteråret.",
+    "English": "These green leaves turn red or yellow in fall."
+  },
+  {
+    "Danish": "Disse træer blev plantet af dem.",
+    "English": "These trees were planted by them."
+  },
+  {
+    "Danish": "Disse bøger er nye.",
+    "English": "These books are new."
+  },
+  {
+    "Danish": "Hvis bøger er disse?",
+    "English": "Whose books are these?"
+  },
+  {
+    "Danish": "Læreren sagde at vi skulle lære alle disse udtryk udenad.",
+    "English": "The teacher said we had to learn all these expressions by heart."
+  },
+  {
+    "Danish": "Vi er nødt til at finde et nyt marked for disse produkter.",
+    "English": "We have to find a new market for these products."
+  },
+  {
+    "Danish": "Disse nye biler er til salg.",
+    "English": "These new cars are on sale."
+  },
+  {
+    "Danish": "Halvdelen af disse æbler er rådne.",
+    "English": "Half of these apples are rotten."
+  },
+  {
+    "Danish": "Ingen af disse busser kører til Shinjuku.",
+    "English": "None of these buses go to Shinjuku."
+  },
+  {
+    "Danish": "Disse hunde er store.",
+    "English": "These dogs are big."
+  },
+  {
+    "Danish": "Dette er det hus, han bor i.",
+    "English": "This is the house in which he lives."
+  },
+  {
+    "Danish": "Dette er en julegave fra ham.",
+    "English": "This is a Christmas present from him."
+  },
+  {
+    "Danish": "Hvis værelse er dette?",
+    "English": "Whose room is this?"
+  },
+  {
+    "Danish": "Det er en slags vandmelon.",
+    "English": "This is a kind of watermelon."
+  },
+  {
+    "Danish": "Dette er ordbogen jeg bruger hver dag.",
+    "English": "This is the dictionary I use every day."
+  },
+  {
+    "Danish": "Dette er den mest vidunderlige gave jeg nogensinde har fået.",
+    "English": "This is the most wonderful present I have ever received."
+  },
+  {
+    "Danish": "Jeg er i et frygteligt dilemma.",
+    "English": "I am in a terrible dilemma."
+  },
+  {
+    "Danish": "Dette er den dårligste film jeg har set.",
+    "English": "This is the worst movie I have ever seen."
+  },
+  {
+    "Danish": "Er dette din cykel?",
+    "English": "Is this your bicycle?"
+  },
+  {
+    "Danish": "Dette er Hr. Millers nyeste bog, og vi håber at det ikke bliver hans sidste.",
+    "English": "This is Mr Miller's latest book, and we hope it will not be his last."
+  },
+  {
+    "Danish": "Er dette lavet i Schweiz?",
+    "English": "Is this made in Switzerland?"
+  },
+  {
+    "Danish": "Er dette din cykel?",
+    "English": "Is this your bike?"
+  },
+  {
+    "Danish": "På dette tilbud gives der ikke de sædvanlige rabatter.",
+    "English": "This offer is not subject to the usual discounts."
+  },
+  {
+    "Danish": "Hvad er forskellen mellem det her og det der?",
+    "English": "What is the difference between this and that?"
+  },
+  {
+    "Danish": "Alt er fint.",
+    "English": "Everything is fine."
+  },
+  {
+    "Danish": "Er det en flod?",
+    "English": "Is this a river?"
+  },
+  {
+    "Danish": "Dette er huset hvor han blev født.",
+    "English": "This is the house in which he was born."
+  },
+  {
+    "Danish": "Er det din bog, Mike?",
+    "English": "Is this your book, Mike?"
+  },
+  {
+    "Danish": "Jeg undskylder. Jeg trækker mine ord tilbage.",
+    "English": "I'm sorry. I take back my words."
+  },
+  {
+    "Danish": "Det er vanskeligt at løse dette problem.",
+    "English": "It is difficult to solve this problem."
+  },
+  {
+    "Danish": "Denne bog er ny.",
+    "English": "This book is new."
+  },
+  {
+    "Danish": "Hvad minder denne hat dig om?",
+    "English": "What does this hat remind you of?"
+  },
+  {
+    "Danish": "Jeg holder ikke denne mavepine ud.",
+    "English": "I can't stand this stomach-ache."
+  },
+  {
+    "Danish": "Hvordan spreder denne sygdom sig?",
+    "English": "How does this disease spread?"
+  },
+  {
+    "Danish": "Denne boks er fyldt med æbler.",
+    "English": "This box is filled with apples."
+  },
+  {
+    "Danish": "Disse to brødre ligner hinanden.",
+    "English": "These two brothers resemble each other."
+  },
+  {
+    "Danish": "Er jeg på den rigtige vej?",
+    "English": "Am I on the right road?"
+  },
+  {
+    "Danish": "Hvad kaldes dette dyr på japansk?",
+    "English": "What do you call this animal in Japanese?"
+  },
+  {
+    "Danish": "Denne by kaldes det japanske Danmark.",
+    "English": "This city is called the Japanese Denmark."
+  },
+  {
+    "Danish": "Denne fugl kan ikke flyve.",
+    "English": "This bird cannot fly."
+  },
+  {
+    "Danish": "Dette vand er godt at drikke.",
+    "English": "This water is good to drink."
+  },
+  {
+    "Danish": "Kan du lide denne farve?",
+    "English": "Do you like this color?"
+  },
+  {
+    "Danish": "Denne roman er værd at læse.",
+    "English": "It is worthwhile to read this novel."
+  },
+  {
+    "Danish": "Kan jeg bruge denne ordbog?",
+    "English": "Can I use this dictionary?"
+  },
+  {
+    "Danish": "Må jeg bruge denne ordbog?",
+    "English": "Can I use this dictionary?"
+  },
+  {
+    "Danish": "Denne ordbog har tolv bind.",
+    "English": "This dictionary has 12 volumes."
+  },
+  {
+    "Danish": "Jeg husker hændelsen så tydeligt som var det i går.",
+    "English": "I remember the event as clearly as if it had happened just yesterday."
+  },
+  {
+    "Danish": "Du må bruge en ordbog ved denne eksamen.",
+    "English": "You can use a dictionary for this exam."
+  },
+  {
+    "Danish": "Det er ikke et svin; det er en abe.",
+    "English": "It's not a pig; it's a monkey."
+  },
+  {
+    "Danish": "Jeg vil være hos dig, straks efter at jeg bliver færdigt med dette arbejde.",
+    "English": "I'll be with you as soon as I finish this job."
+  },
+  {
+    "Danish": "Dette gamle bord er stadig i brug.",
+    "English": "This old table is still in use."
+  },
+  {
+    "Danish": "Jeg kan ikke bruge denne maskine.",
+    "English": "I can't use this machine."
+  },
+  {
+    "Danish": "Denne blomst er den smukkeste af alle blomster.",
+    "English": "This flower is the most beautiful of all flowers."
+  },
+  {
+    "Danish": "Denne blomst afgiver en stærk duft.",
+    "English": "This flower gives off a strong fragrance."
+  },
+  {
+    "Danish": "Denne blomst er gul, men alle de andre er blå.",
+    "English": "This flower is yellow, but all the others are blue."
+  },
+  {
+    "Danish": "Disse blomster vil for det meste overleve vinteren.",
+    "English": "These flowers will live through the winter more often than not."
+  },
+  {
+    "Danish": "Denne sang er let at lære.",
+    "English": "This song is easy to learn."
+  },
+  {
+    "Danish": "Dette hus er ikke til salg.",
+    "English": "This house is not for sale."
+  },
+  {
+    "Danish": "Vi har haft en hel del torden i sommer.",
+    "English": "We have had a lot of thunder this summer."
+  },
+  {
+    "Danish": "Kunne du lide filmen?",
+    "English": "Did you like the movie?"
+  },
+  {
+    "Danish": "Denne stol er lavet af plast.",
+    "English": "This chair is made of plastic."
+  },
+  {
+    "Danish": "Denne stol er lavet af plastic.",
+    "English": "This chair is made of plastic."
+  },
+  {
+    "Danish": "Denne stol er lavet af plastik.",
+    "English": "This chair is made of plastic."
+  },
+  {
+    "Danish": "Denne hal rummer 2000 personer.",
+    "English": "This hall holds 2,000 people."
+  },
+  {
+    "Danish": "De her blommer er modne.",
+    "English": "These plums are ripe."
+  },
+  {
+    "Danish": "Er denne stige solid nok til at bære mig?",
+    "English": "Is this ladder strong enough to bear my weight?"
+  },
+  {
+    "Danish": "Denne saks klipper godt.",
+    "English": "These scissors cut well."
+  },
+  {
+    "Danish": "Tag kniven og skær spidsen af.",
+    "English": "Take this knife and cut the top off."
+  },
+  {
+    "Danish": "Denne kniv er meget skarp.",
+    "English": "This knife is very sharp."
+  },
+  {
+    "Danish": "Dette tv-program er faktisk ganske interessant.",
+    "English": "This TV program is really quite interesting."
+  },
+  {
+    "Danish": "Den her nederdel er lidt for stram.",
+    "English": "This skirt is a little too tight."
+  },
+  {
+    "Danish": "Denne te kaldes grøn te.",
+    "English": "This tea is called green tea."
+  },
+  {
+    "Danish": "Denne elevator går ikke højere end til sjette etage.",
+    "English": "This elevator does not go above the sixth floor."
+  },
+  {
+    "Danish": "Denne elevator kan tage 10 personer ad gangen.",
+    "English": "This elevator is capable of carrying 10 persons at a time."
+  },
+  {
+    "Danish": "Stolen her er for lav til mig.",
+    "English": "This chair is too low for me."
+  },
+  {
+    "Danish": "Vær så venlig at give mig et glas vand.",
+    "English": "Give me a glass of water, please."
+  },
+  {
+    "Danish": "Lad os holde pause i ti minutter.",
+    "English": "Let's take a 10-minute break."
+  },
+  {
+    "Danish": "Koko er en hungorilla.",
+    "English": "Koko is a female gorilla."
+  },
+  {
+    "Danish": "Her er din hund. Hvor er min?",
+    "English": "Here is your dog. Where is mine?"
+  },
+  {
+    "Danish": "Lav ikke støj her.",
+    "English": "Don't be noisy here."
+  },
+  {
+    "Danish": "Lav ikke støj her.",
+    "English": "Don't make noise here."
+  },
+  {
+    "Danish": "Stands ikke her.",
+    "English": "Don't stop here."
+  },
+  {
+    "Danish": "Du kan ikke svømme her.",
+    "English": "You cannot swim here."
+  },
+  {
+    "Danish": "At ryge her er strengt forbudt.",
+    "English": "Smoking is strictly forbidden here."
+  },
+  {
+    "Danish": "Du kan ryge her.",
+    "English": "You can smoke here."
+  },
+  {
+    "Danish": "Mellem os to så sælger artiklen langsomt.",
+    "English": "Between ourselves, this article is selling slowly."
+  },
+  {
+    "Danish": "Der er en lang vej herfra til skolen.",
+    "English": "It's a long way from here to school."
+  },
+  {
+    "Danish": "Må jeg bede om en kop kaffe mere?",
+    "English": "I'd like to have another cup of coffee."
+  },
+  {
+    "Danish": "Jeg kunne godt tænke mig en kop kaffe mere.",
+    "English": "I'd like to have another cup of coffee."
+  },
+  {
+    "Danish": "Vær så venlig at lave en kop kaffe til mig.",
+    "English": "Please make me a cup of coffee."
+  },
+  {
+    "Danish": "Jeg kan bedre lide kaffe.",
+    "English": "I like coffee better."
+  },
+  {
+    "Danish": "Den ene side af en mønt kaldes »krone«, og den anden side kaldes »plat«.",
+    "English": "One side of a coin is called 'heads' and the other side is called 'tails'."
+  },
+  {
+    "Danish": "Både Ken og Meg er mine venner.",
+    "English": "Both Ken and Meg are my friends."
+  },
+  {
+    "Danish": "Ken og Meg er begge mine venner.",
+    "English": "Both Ken and Meg are my friends."
+  },
+  {
+    "Danish": "Ken holdt op med at tale og begyndte at spise.",
+    "English": "Ken stopped talking and began to eat."
+  },
+  {
+    "Danish": "Ken har flere bøger end dig.",
+    "English": "Ken has more books than you."
+  },
+  {
+    "Danish": "Ken er ældre end Seiko.",
+    "English": "Ken is older than Seiko."
+  },
+  {
+    "Danish": "Der er kun to uger til jul.",
+    "English": "Christmas is only two weeks off."
+  },
+  {
+    "Danish": "Vi blev i Hawaii julen over.",
+    "English": "We stayed in Hawaii over Christmas."
+  },
+  {
+    "Danish": "Hvad fik du til jul?",
+    "English": "What did you get for Christmas?"
+  },
+  {
+    "Danish": "Jeg ser frem til at se dig til jul.",
+    "English": "I look forward to seeing you at Christmas."
+  },
+  {
+    "Danish": "Græsk er svært at lære.",
+    "English": "Greek is difficult to learn."
+  },
+  {
+    "Danish": "Tror du på spøgelser?",
+    "English": "Do you believe in ghosts?"
+  },
+  {
+    "Danish": "Du gør mig lykkelig.",
+    "English": "You make me happy."
+  },
+  {
+    "Danish": "Du ser træt ud.",
+    "English": "You look tired."
+  },
+  {
+    "Danish": "Det regnede i går.",
+    "English": "It rained yesterday."
+  },
+  {
+    "Danish": "Først i går fik vi det at vide.",
+    "English": "It was not until yesterday that we knew about it."
+  },
+  {
+    "Danish": "Han må elske dig.",
+    "English": "He must love you."
+  },
+  {
+    "Danish": "Jeg tog mit kamera med.",
+    "English": "I took my camera along."
+  },
+  {
+    "Danish": "Canada ligger nord for USA.",
+    "English": "Canada is to the north of the United States."
+  },
+  {
+    "Danish": "Gøge kommer her om foråret.",
+    "English": "Cuckoos visit here in spring."
+  },
+  {
+    "Danish": "Jeg kan lide måden du går på.",
+    "English": "I like the way you walk."
+  },
+  {
+    "Danish": "Jeg har mistet min paraply. Jeg bliver nødt til at købe en ny.",
+    "English": "I've lost my umbrella. I must buy a new one."
+  },
+  {
+    "Danish": "Det har været hyggeligt at snakke med dig.",
+    "English": "I've enjoyed talking to you."
+  },
+  {
+    "Danish": "Jeg er meget glad for at se dig.",
+    "English": "I'm very pleased to meet you."
+  },
+  {
+    "Danish": "Min mor beklager sig altid over mig.",
+    "English": "My mother is always complaining about me."
+  },
+  {
+    "Danish": "Tak for dit svar.",
+    "English": "Thanks for your reply."
+  },
+  {
+    "Danish": "Der er gået to år siden vi skiltes.",
+    "English": "Two years have passed since we parted."
+  },
+  {
+    "Danish": "Jeg er hundesulten.",
+    "English": "I'm starved."
+  },
+  {
+    "Danish": "Vil du have kød eller fisk?",
+    "English": "Would you like meat or fish?"
+  },
+  {
+    "Danish": "Hvordan er vejret?",
+    "English": "How is the weather?"
+  },
+  {
+    "Danish": "Vil du have en kop te til?",
+    "English": "Would you like another cup of tea?"
+  },
+  {
+    "Danish": "Tillykke med fødselsdagen!",
+    "English": "Happy birthday to you!"
+  },
+  {
+    "Danish": "Jeg vil komme dine ord i hu.",
+    "English": "I will bear your words in mind."
+  },
+  {
+    "Danish": "Jeg vil huske dine ord.",
+    "English": "I will bear your words in mind."
+  },
+  {
+    "Danish": "Hvordan har du det?",
+    "English": "How have you been?"
+  },
+  {
+    "Danish": "Kan din bror køre bil?",
+    "English": "Can your brother drive a car?"
+  },
+  {
+    "Danish": "Mine penge blev stjålet.",
+    "English": "My money was stolen."
+  },
+  {
+    "Danish": "Appelsiner indeholder meget vitamin C.",
+    "English": "Oranges contain a lot of vitamin C."
+  },
+  {
+    "Danish": "Har jeg ikke ret?",
+    "English": "Am I not right?"
+  },
+  {
+    "Danish": "Jeg har ondt i maven.",
+    "English": "I have a stomachache."
+  },
+  {
+    "Danish": "Min onkel gav mig en gave.",
+    "English": "My uncle gave me a present."
+  },
+  {
+    "Danish": "Min onkel bor nær skolen.",
+    "English": "My uncle lives near the school."
+  },
+  {
+    "Danish": "Mount Everest er det højeste bjerg i verden.",
+    "English": "Mt. Everest is the highest mountain in the world."
+  },
+  {
+    "Danish": "Ja, men du skal ikke blive til enden.",
+    "English": "Yes, but you do not have to stay to the end."
+  },
+  {
+    "Danish": "Hvorfra afgår lufthavnsbusserne?",
+    "English": "Where do the airport buses leave from?"
+  },
+  {
+    "Danish": "Mm-hm. Det tror jeg også.",
+    "English": "Mm-hm. I think so too."
+  },
+  {
+    "Danish": "Vores hund er løbet væk.",
+    "English": "Our dog has gone away."
+  },
+  {
+    "Danish": "Jeg føler mig skyldig.",
+    "English": "I feel guilty."
+  },
+  {
+    "Danish": "En kanins ører er længere end en rævs.",
+    "English": "The ears of a rabbit are longer than those of a fox."
+  },
+  {
+    "Danish": "Hr. og fru West er på deres bryllupsrejse.",
+    "English": "Mr. and Mrs. West are on their honeymoon."
+  },
+  {
+    "Danish": "Indien er verdens syvende største land.",
+    "English": "India is the seventh largest country in the world."
+  },
+  {
+    "Danish": "En delfin er et pattedyr.",
+    "English": "A dolphin is a mammal."
+  },
+  {
+    "Danish": "Det er for sent nu.",
+    "English": "It's too late now."
+  },
+  {
+    "Danish": "Jeg kommer.",
+    "English": "I am coming."
+  },
+  {
+    "Danish": "Hvornår tager du af sted?",
+    "English": "When will you leave?"
+  },
+  {
+    "Danish": "Jeg ved ikke præcis hvornår jeg kommer tilbage.",
+    "English": "I don't know exactly when I will be back."
+  },
+  {
+    "Danish": "Sig altid sandheden.",
+    "English": "Always tell the truth."
+  },
+  {
+    "Danish": "Fortæl altid sandheden.",
+    "English": "Always tell the truth."
+  },
+  {
+    "Danish": "Jeg vil tage til udlandet på et tidspunkt.",
+    "English": "I want to go abroad one day."
+  },
+  {
+    "Danish": "Hvornår og hvor modtog du gaven?",
+    "English": "When and where did you receive the gift?"
+  },
+  {
+    "Danish": "Den Engelske Kanal skiller England og Frankrig.",
+    "English": "The English Channel separates England and France."
+  },
+  {
+    "Danish": "Jesus blev født af Maria.",
+    "English": "Jesus was born of Mary."
+  },
+  {
+    "Danish": "Du er nødt til at være skør for at gøre sådan noget.",
+    "English": "You've got to be crazy to do something like that."
+  },
+  {
+    "Danish": "Andersen var også bange for hunde.",
+    "English": "Andersen was afraid of dogs, too."
+  },
+  {
+    "Danish": "Hvad er det?",
+    "English": "What's that?"
+  },
+  {
+    "Danish": "De bøger er vores.",
+    "English": "Those are our books."
+  },
+  {
+    "Danish": "De bøger er deres.",
+    "English": "Those books are theirs."
+  },
+  {
+    "Danish": "De huse er fem hundrede år gamle.",
+    "English": "Those houses are 500 years old."
+  },
+  {
+    "Danish": "De æbler er store.",
+    "English": "Those apples are big."
+  },
+  {
+    "Danish": "På trods af al sin rigdom og berømmelse, er han ulykkelig.",
+    "English": "For all his wealth and fame, he is unhappy."
+  },
+  {
+    "Danish": "Det er billedet han malede.",
+    "English": "That is the picture that he painted."
+  },
+  {
+    "Danish": "Det er pigen som jeg kender godt.",
+    "English": "That is the girl whom I know well."
+  },
+  {
+    "Danish": "Er det en kat?",
+    "English": "Is that a cat?"
+  },
+  {
+    "Danish": "En dag mødte jeg ham.",
+    "English": "One day I met him."
+  },
+  {
+    "Danish": "En pige ringede til mig.",
+    "English": "A girl phoned me."
+  },
+  {
+    "Danish": "En udlænding spurgte mig hvor stationen lå.",
+    "English": "A foreigner asked me where the station was."
+  },
+  {
+    "Danish": "Alperne ligger i centrum af Europa.",
+    "English": "The Alps are in the center of Europe."
+  },
+  {
+    "Danish": "Skriv alfabetet med store bogstaver.",
+    "English": "Write the alphabet in capitals."
+  },
+  {
+    "Danish": "Hvor mange bogstaver er der i alfabetet?",
+    "English": "How many letters are there in the alphabet?"
+  },
+  {
+    "Danish": "A kommer før B i alfabetet.",
+    "English": "'A' comes before 'B' in the alphabet."
+  },
+  {
+    "Danish": "I alfabetet kommer B efter A.",
+    "English": "In the alphabet, B comes after A."
+  },
+  {
+    "Danish": "Vil du vise mig dit fotoalbum?",
+    "English": "Will you show me your photo album?"
+  },
+  {
+    "Danish": "Albert har let ved at lære.",
+    "English": "Albert is quick at learning."
+  },
+  {
+    "Danish": "Prøv at se tingene som de er.",
+    "English": "Try to see things as they are."
+  },
+  {
+    "Danish": "Alice smilede.",
+    "English": "Alice smiled."
+  },
+  {
+    "Danish": "Alice smilte.",
+    "English": "Alice smiled."
+  },
+  {
+    "Danish": "Alice vendte tidligt hjem fra arbejde med en kraftig hovedpine.",
+    "English": "Alice returned home early from work with a severe headache."
+  },
+  {
+    "Danish": "Jeg var lige ved at lave en fejl.",
+    "English": "I nearly made a mistake."
+  },
+  {
+    "Danish": "Han var den sidste person, som jeg havde forventet at se under mit ophold i Amerika.",
+    "English": "He was the last person I had expected to see during my stay in America."
+  },
+  {
+    "Danish": "USA er sammensat af 50 stater.",
+    "English": "The USA is composed of 50 states."
+  },
+  {
+    "Danish": "Mange kriminelle i Amerika er afhængige af narkotika.",
+    "English": "Many criminals in America are addicted to drugs."
+  },
+  {
+    "Danish": "Mange kriminelle i Amerika er afhængige af stoffer.",
+    "English": "Many criminals in America are addicted to drugs."
+  },
+  {
+    "Danish": "Han fortalte mig, at han skulle til USA.",
+    "English": "He told me he was going to America."
+  },
+  {
+    "Danish": "Det værelse er ikke ret stort.",
+    "English": "That room is not very large."
+  },
+  {
+    "Danish": "Den ø har tropisk klima.",
+    "English": "That island has a tropical climate."
+  },
+  {
+    "Danish": "Hvor højt er det tårn?",
+    "English": "How high is that tower?"
+  },
+  {
+    "Danish": "Hvem er den mand?",
+    "English": "Who is that man?"
+  },
+  {
+    "Danish": "Den mand døde af lungekræft for en uge siden.",
+    "English": "That man died of lung cancer a week ago."
+  },
+  {
+    "Danish": "Det hus er berømt.",
+    "English": "That house is famous."
+  },
+  {
+    "Danish": "Det hus tilhører ham.",
+    "English": "That house belongs to him."
+  },
+  {
+    "Danish": "Huset er hjemsøgt.",
+    "English": "The house is haunted."
+  },
+  {
+    "Danish": "Den guitar er så dyr, at jeg ikke kan købe den.",
+    "English": "That guitar is so expensive that I can't buy it."
+  },
+  {
+    "Danish": "Legetøjet er lavet af træ.",
+    "English": "That toy is made of wood."
+  },
+  {
+    "Danish": "Jeg er født for at elske dig.",
+    "English": "I was born to love you."
+  },
+  {
+    "Danish": "Hvor er du i morgen ved denne tid?",
+    "English": "Where will you be this time tomorrow?"
+  },
+  {
+    "Danish": "Lytter du til radioen hjemme hver dag?",
+    "English": "Do you listen to the radio at home every day?"
+  },
+  {
+    "Danish": "Er du optaget?",
+    "English": "Are you busy?"
+  },
+  {
+    "Danish": "Synes du at hun er tiltrækkende?",
+    "English": "Do you think her attractive?"
+  },
+  {
+    "Danish": "Du burde følge hans råd.",
+    "English": "You should follow his advice."
+  },
+  {
+    "Danish": "Taler du japansk?",
+    "English": "Do you speak Japanese?"
+  },
+  {
+    "Danish": "Tager du med toget eller kører du i bil?",
+    "English": "Do you go by train or by car?"
+  },
+  {
+    "Danish": "Kan du løbe hurtigt?",
+    "English": "Can you run fast?"
+  },
+  {
+    "Danish": "Du burde ikke gå ud.",
+    "English": "You'd better not go out."
+  },
+  {
+    "Danish": "Kan du tvinge dig selv til at sove?",
+    "English": "Can you will yourself to fall asleep?"
+  },
+  {
+    "Danish": "Fortsæt med dit arbejde.",
+    "English": "Carry on with your work."
+  },
+  {
+    "Danish": "Kan du lide sorte katte?",
+    "English": "Do you like black cats?"
+  },
+  {
+    "Danish": "Har du noget at læse?",
+    "English": "Do you have anything to read?"
+  },
+  {
+    "Danish": "Du har fuldstændig ret.",
+    "English": "You are absolutely right."
+  },
+  {
+    "Danish": "Hvor så du kvinden?",
+    "English": "Where did you see the woman?"
+  },
+  {
+    "Danish": "Hvor har du set kvinden?",
+    "English": "Where did you see the woman?"
+  },
+  {
+    "Danish": "Hvorfor er du alene?",
+    "English": "Why are you alone?"
+  },
+  {
+    "Danish": "Du behøver ikke stå op så tidligt.",
+    "English": "You don't have to get up so early."
+  },
+  {
+    "Danish": "Du klager altid over din mand.",
+    "English": "You are always complaining about your husband."
+  },
+  {
+    "Danish": "Du har to blomster.",
+    "English": "You have two flowers."
+  },
+  {
+    "Danish": "Hvor mange bøger læser du om måneden?",
+    "English": "How many books do you read a month?"
+  },
+  {
+    "Danish": "Kom og skriv dit navn.",
+    "English": "Come and write your name."
+  },
+  {
+    "Danish": "Dit navn står først på listen.",
+    "English": "Your name stands first in the list."
+  },
+  {
+    "Danish": "Hvad er dit navn?",
+    "English": "What is your name?"
+  },
+  {
+    "Danish": "Hvad hedder du?",
+    "English": "What is your name?"
+  },
+  {
+    "Danish": "Hvad hedder De?",
+    "English": "What is your name?"
+  },
+  {
+    "Danish": "Må jeg låne din paraply?",
+    "English": "Can I borrow your umbrella?"
+  },
+  {
+    "Danish": "Hvad er din blodtype?",
+    "English": "What's your blood group?"
+  },
+  {
+    "Danish": "Jeg ved præcis hvordan du føler dig.",
+    "English": "I know exactly how you feel."
+  },
+  {
+    "Danish": "Dit hus trænger til at blive malet.",
+    "English": "Your house needs painting."
+  },
+  {
+    "Danish": "Har din mor lavet dem?",
+    "English": "Did your mother make those?"
+  },
+  {
+    "Danish": "Hvor gammel er din far?",
+    "English": "How old is your father?"
+  },
+  {
+    "Danish": "Jeg er meget glad for at se dig.",
+    "English": "I am very glad to see you."
+  },
+  {
+    "Danish": "Har I mødt hinanden?",
+    "English": "Have you met each other?"
+  },
+  {
+    "Danish": "Dette brev kom mens du var ude.",
+    "English": "This letter arrived while you were out."
+  },
+  {
+    "Danish": "Hvornår ankommer vi?",
+    "English": "When will we arrive?"
+  },
+  {
+    "Danish": "Jeg ved ikke hvad jeg skal gøre nu.",
+    "English": "I don't know what to do now."
+  },
+  {
+    "Danish": "Drengen som står derovre er min søn.",
+    "English": "The boy standing over there is my son."
+  },
+  {
+    "Danish": "Du kan spørge barnet, der leger derovre.",
+    "English": "You can ask the child who's playing over there."
+  },
+  {
+    "Danish": "Hvad lavede du dernede?",
+    "English": "What were you doing down there?"
+  },
+  {
+    "Danish": "Hvis det regner i morgen, bliver jeg hjemme.",
+    "English": "If it rains tomorrow, I will stay at home."
+  },
+  {
+    "Danish": "Hvad består aspirin af?",
+    "English": "What does aspirin consist of?"
+  },
+  {
+    "Danish": "Uheldigvis regnede det.",
+    "English": "Unfortunately, it rained."
+  },
+  {
+    "Danish": "Han er en ulv i fåreklæder.",
+    "English": "He is a wolf in sheep's clothing."
+  },
+  {
+    "Danish": "Island hørte tidligere til Danmark.",
+    "English": "Iceland used to belong to Denmark."
+  },
+  {
+    "Danish": "Nå, jeg må gå nu.",
+    "English": "Well, I have to go now."
+  },
+  {
+    "Danish": "Her kommer toget!",
+    "English": "Here comes the train!"
+  },
+  {
+    "Danish": "Hvor lang tid tager det at komme fra A til B?",
+    "English": "How much time does it take to get from A to B?"
+  },
+  {
+    "Danish": "A er alfabetets første bogstav.",
+    "English": "A is the first letter of the alphabet."
+  },
+  {
+    "Danish": "Jeg vil være tilbage på mindre end fem minutter.",
+    "English": "I will be back in less than five minutes."
+  },
+  {
+    "Danish": "Det regnede fem dage i træk.",
+    "English": "It rained five successive days."
+  },
+  {
+    "Danish": "Jeg har cirka 5.000 yen.",
+    "English": "I have about 5,000 yen."
+  },
+  {
+    "Danish": "Tæl til tredive.",
+    "English": "Count up to thirty."
+  },
+  {
+    "Danish": "Kan jeg ringe tilbage om tyve minutter?",
+    "English": "Can I call you back in twenty minutes?"
+  },
+  {
+    "Danish": "Tyve år er lang tid.",
+    "English": "Twenty years is a long time."
+  },
+  {
+    "Danish": "Et år har tolv måneder.",
+    "English": "A year has twelve months."
+  },
+  {
+    "Danish": "Det har sneet i en uge.",
+    "English": "It had been snowing for a week."
+  },
+  {
+    "Danish": "Det havde sneet i en uge.",
+    "English": "It had been snowing for a week."
+  },
+  {
+    "Danish": "Jeg kommer tilbage om en time.",
+    "English": "I'll be back in an hour."
+  },
+  {
+    "Danish": "Tæl fra en til ti.",
+    "English": "Count from one to ten."
+  },
+  {
+    "Danish": "Hvad med 12:45?",
+    "English": "How about 12:45?"
+  },
+  {
+    "Danish": "Klokken er præcis ti.",
+    "English": "It's ten o'clock sharp."
+  },
+  {
+    "Danish": "1, 3 og 5 er ulige tal.",
+    "English": "One, three, and five are odd numbers."
+  },
+  {
+    "Danish": "En, tre og fem er ulige tal.",
+    "English": "One, three, and five are odd numbers."
+  },
+  {
+    "Danish": "Kom, svarede Jesus.",
+    "English": "Come, Jesus replied."
+  },
+  {
+    "Danish": "Er du træt? \"Nej, slet ikke.",
+    "English": "Are you tired? \"No, not at all."
+  },
+  {
+    "Danish": "Er hun ung? \"Ja, det er hun.",
+    "English": "Is she young? \"Yes, she is."
+  },
+  {
+    "Danish": "Hvor gammel er hun? - \"Hun er tolv år.",
+    "English": "How old is she? \"She is twelve years old."
+  },
+  {
+    "Danish": "Elsk din næste som dig selv er et citat fra Bibelen.",
+    "English": "Love your neighbour as yourself is a quotation from the Bible."
+  },
+  {
+    "Danish": "Brand råbte han.",
+    "English": "Fire! he cried."
+  },
+  {
+    "Danish": "Mørkets herre betyder \"Satan\".",
+    "English": "The prince of darkness means \"Satan."
+  },
+  {
+    "Danish": "Jeg vil købe ting, sagde drengen.",
+    "English": "I want to buy things, the boy said."
+  },
+  {
+    "Danish": "Nej, gentog englænderen.",
+    "English": "No, repeated the Englishman."
+  },
+  {
+    "Danish": "Gå hen til lægen og få din recept!",
+    "English": "Go to the doctor to get your prescription!"
+  },
+  {
+    "Danish": "Udfyld nedenstående formular for at finde ud af hvem du kunne have været i et tidligere liv.",
+    "English": "Complete the following form to know who you could have been in a previous life."
+  },
+  {
+    "Danish": "Sport er godt for dit helbred.",
+    "English": "Sport is good for your health."
+  },
+  {
+    "Danish": "Spanien har været et demokrati siden 1975.",
+    "English": "Spain has been a democracy since 1975."
+  },
+  {
+    "Danish": "Velkommen!",
+    "English": "Welcome."
+  }
+]
