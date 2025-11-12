@@ -345,7 +345,7 @@
         <strong>Danish:</strong> ${highlight(pair.Danish, query)}<br>
         <strong>English:</strong> ${highlight(pair.English, query)}
         <div class="controls">
-          <button class="audio" onclick="speakDanish('${pair.Danish.replace(/'/g, "\\'")}')">🔊 Hear Danish</button>
+<button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
           <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
         </div>
       </div>`
@@ -368,12 +368,39 @@
         <strong>Danish:</strong> ${pair.Danish}<br>
         <strong>English:</strong> ${pair.English}
         <div class="controls">
-          <button class="audio" onclick="speakDanish('${pair.Danish.replace(/'/g, "\\'")}')">🔊 Hear Danish</button>
+<button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
           <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
         </div>
       </div>
     `;
   }
+
+
+
+function playBothLanguages(danishText, englishText) {
+  const utterDanish = new SpeechSynthesisUtterance(danishText);
+  utterDanish.lang = 'da-DK';
+  utterDanish.rate = 0.95;
+  utterDanish.pitch = 1;
+  utterDanish.volume = 1;
+
+  const utterEnglish = new SpeechSynthesisUtterance(englishText);
+  utterEnglish.lang = 'en-US';
+  utterEnglish.rate = 0.95;
+  utterEnglish.pitch = 1;
+  utterEnglish.volume = 1;
+
+  // Optional delay between utterances
+  utterDanish.onend = () => {
+    setTimeout(() => {
+      speechSynthesis.speak(utterEnglish);
+    }, 300); // 300ms pause
+  };
+
+  speechSynthesis.speak(utterDanish);
+}
+
+
 
   function speakDanish(text) {
     const utterance = new SpeechSynthesisUtterance(text);
@@ -506,7 +533,7 @@
         <strong>Danish:</strong> ${pair.Danish}<br>
         <strong>English:</strong> ${pair.English}
         <div class="controls">
-          <button class="audio" onclick="speakDanish('${pair.Danish.replace(/'/g, "\\'")}')">🔊 Hear Danish</button>
+<button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
           <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
         </div>
       </div>
