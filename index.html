@@ -121,7 +121,7 @@
     .clear-x {
       position: absolute;
       right: 0.6em;
-      top: 0.80em; /* aligns with input padding */
+      top: 0.80em;
       font-size: 0.95em;
       line-height: 1;
       cursor: pointer;
@@ -149,6 +149,7 @@
       transform: translateY(-2px);
       color: #cc5500;
     }
+
     .quiz-footer {
       display: flex;
       gap: 0.5em;
@@ -171,6 +172,7 @@
       color: #000;
       border-radius: 4px;
       padding: 0.3em 0.6em;
+      font-weight: normal;
     }
 
     .incorrect {
@@ -178,11 +180,13 @@
       color: #000;
       border-radius: 4px;
       padding: 0.3em 0.6em;
+      font-weight: normal;
     }
 
     .answer {
       min-height: 3em;
       transition: background-color 0.3s ease, color 0.3s ease;
+      font-weight: normal;
     }
   </style>
 </head>
@@ -195,37 +199,36 @@
     <option value="english">Search: English only</option>
   </select>
 
-<!-- 🔍 Search input row with clear button -->
-<div class="row clearable">
-  <div class="input-wrapper">
-    <input type="text" id="searchInput" placeholder="Type a word..." />
-    <span class="clear-x" onclick="clearSearchInput()">❌</span>
+  <div class="row clearable">
+    <div class="input-wrapper">
+      <input type="text" id="searchInput" placeholder="Type a word..." />
+      <span class="clear-x" onclick="clearSearchInput()">❌</span>
+    </div>
+    <button onclick="handleSearch()">🔍 Search</button>
   </div>
-  <button onclick="handleSearch()">🔍 Search</button>
-</div>
 
-<!-- ⏪⏩ Navigation row for Back/Forward history -->
-<div class="row clearable">
-  <button onclick="goBack()">⏪ Back</button>
-  <button onclick="goForward()">⏩ Forward</button>
-</div>
+  <div class="row clearable">
+    <button onclick="goBack()">⏪ Back</button>
+    <button onclick="goForward()">⏩ Forward</button>
+  </div>
 
-<!-- 🎲🎓 Action row for Random and Quiz -->
-<div class="row clearable">
-  <button onclick="showRandom()">🎲 Random</button>
-  <button onclick="startQuiz()">🎓 Quiz</button>
-</div>
-
+  <div class="row clearable">
+    <button onclick="showRandom()">🎲 Random</button>
+    <button onclick="startQuiz()">🎓 Quiz</button>
+  </div>
 
   <div id="results"></div>
-    <button class="top-button" onclick="scrollToTop()" title="Back to top">⬆️</button>
+  <button class="top-button" onclick="scrollToTop()" title="Back to top">⬆️</button>
 
   <div id="speechControls">
     <label for="voiceSelect">Voice:</label>
     <select id="voiceSelect"></select>
 
     <label for="rateControl">Speed:</label>
-    <input type="range" id="rateControl" min="0.5" max="2" step="0.1" value="1" />
+    <input type="range" id="rateControl" min="0" max="1" step="0.05" value="1" />
+
+    <label for="pitchControl">Pitch:</label>
+    <input type="range" id="pitchControl" min="0" max="1" step="0.05" value="1" />
   </div>
 
   <div id="quiz"></div>
@@ -239,8 +242,45 @@
 
 
 
+
+
 <script>
-  // Utility functions
+  // 🌍 Global voice settings
+  let voiceRate = parseFloat(localStorage.getItem("voiceRate")) || 1;
+  let voicePitch = parseFloat(localStorage.getItem("voicePitch")) || 1;
+
+  // 🎛 Sync sliders with saved values
+  window.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("rateControl").value = voiceRate;
+    document.getElementById("pitchControl").value = voicePitch;
+
+    document.getElementById("rateControl").addEventListener("input", function () {
+      voiceRate = parseFloat(this.value);
+      localStorage.setItem("voiceRate", voiceRate);
+    });
+
+    document.getElementById("pitchControl").addEventListener("input", function () {
+      voicePitch = parseFloat(this.value);
+      localStorage.setItem("voicePitch", voicePitch);
+    });
+  });
+
+  // 🗣️ Voice setup
+  function populateVoiceOptions() {
+    const select = document.getElementById("voiceSelect");
+    const voices = speechSynthesis.getVoices().filter(v => v.lang === "da-DK");
+
+    if (voices.length === 0) {
+      select.innerHTML = `<option disabled>No Danish voices found</option>`;
+      return;
+    }
+
+    select.innerHTML = voices.map(v => `<option value="${v.name}">${v.name}</option>`).join("");
+  }
+
+  speechSynthesis.onvoiceschanged = populateVoiceOptions;
+
+  // 🧹 Utility functions
   function clearSearchInput() {
     document.getElementById("searchInput").value = "";
     document.getElementById("results").innerHTML = "";
@@ -260,22 +300,13 @@
     document.body.classList.toggle("dark");
   }
 
-  // Voice setup
-  function populateVoiceOptions() {
-    const select = document.getElementById("voiceSelect");
-    const voices = speechSynthesis.getVoices().filter(v => v.lang === "da-DK");
-
-    if (voices.length === 0) {
-      select.innerHTML = `<option disabled>No Danish voices found</option>`;
-      return;
-    }
-
-    select.innerHTML = voices.map(v => `<option value="${v.name}">${v.name}</option>`).join("");
+  function highlight(text, query) {
+    const regex = new RegExp(`(${query})`, "gi");
+    return text.replace(regex, "<span class='highlight'>$1</span>");
   }
 
-  speechSynthesis.onvoiceschanged = populateVoiceOptions;
 
-  // App logic
+
   let navigationHistory = [];
   let navIndex = -1;
   let isNavigating = false;
@@ -315,10 +346,9 @@
     isNavigating = false;
 
     document.getElementById("searchInput").value = query;
-
     saveToHistory(query);
-    const mode = document.getElementById("searchMode").value;
 
+    const mode = document.getElementById("searchMode").value;
     const queryLength = query.length;
     const threshold = queryLength <= 3 ? 0 : queryLength <= 5 ? 1 : 2;
 
@@ -345,7 +375,7 @@
         <strong>Danish:</strong> ${highlight(pair.Danish, query)}<br>
         <strong>English:</strong> ${highlight(pair.English, query)}
         <div class="controls">
-<button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
+          <button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
           <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
         </div>
       </div>`
@@ -368,7 +398,7 @@
         <strong>Danish:</strong> ${pair.Danish}<br>
         <strong>English:</strong> ${pair.English}
         <div class="controls">
-<button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
+          <button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
           <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
         </div>
       </div>
@@ -377,57 +407,53 @@
 
 
 
+
 function playBothLanguages(danishText, englishText) {
+  const selectedVoiceName = document.getElementById("voiceSelect").value;
+  const voices = speechSynthesis.getVoices();
+  const danishVoice = voices.find(v => v.name === selectedVoiceName && v.lang === "da-DK");
+
   const utterDanish = new SpeechSynthesisUtterance(danishText);
-  utterDanish.lang = 'da-DK';
-  utterDanish.rate = 0.95;
-  utterDanish.pitch = 1;
-  utterDanish.volume = 1;
+  utterDanish.lang = "da-DK";
+  utterDanish.rate = voiceRate;
+  utterDanish.pitch = voicePitch;
+  if (danishVoice) {
+    utterDanish.voice = danishVoice;
+  }
 
   const utterEnglish = new SpeechSynthesisUtterance(englishText);
-  utterEnglish.lang = 'en-US';
-  utterEnglish.rate = 0.95;
-  utterEnglish.pitch = 1;
-  utterEnglish.volume = 1;
+  utterEnglish.lang = "en-AU"; // You can change this to 'en-US' or make it user-selectable
+  utterEnglish.rate = voiceRate;
+  utterEnglish.pitch = voicePitch;
 
-  // Optional delay between utterances
   utterDanish.onend = () => {
     setTimeout(() => {
       speechSynthesis.speak(utterEnglish);
-    }, 300); // 300ms pause
+    }, 300);
   };
 
   speechSynthesis.speak(utterDanish);
 }
 
+function speakDanish(text) {
+  const selectedVoiceName = document.getElementById("voiceSelect").value;
+  const voices = speechSynthesis.getVoices();
+  const danishVoice = voices.find(v => v.name === selectedVoiceName && v.lang === "da-DK");
 
-
-  function speakDanish(text) {
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "da-DK";
-
-    const rate = parseFloat(document.getElementById("rateControl").value);
-    utterance.rate = rate;
-
-    const selectedVoiceName = document.getElementById("voiceSelect").value;
-    const voices = speechSynthesis.getVoices();
-    const match = voices.find(v => v.name === selectedVoiceName);
-
-    if (match) {
-      utterance.voice = match;
-    }
-
-    speechSynthesis.speak(utterance);
+  const utterance = new SpeechSynthesisUtterance(text);
+  utterance.lang = "da-DK";
+  utterance.rate = voiceRate;
+  utterance.pitch = voicePitch;
+  if (danishVoice) {
+    utterance.voice = danishVoice;
   }
 
-  function highlight(text, query) {
-    const regex = new RegExp(`(${query})`, "gi");
-    return text.replace(regex, "<span class='highlight'>$1</span>");
-  }
-</script>
+  speechSynthesis.speak(utterance);
+}
 
 
-<script>
+
+
   function startQuiz() {
     if (examples.length < 10) {
       document.getElementById("quiz").innerHTML = "<p>Not enough data for a quiz.</p>";
@@ -506,7 +532,6 @@ function playBothLanguages(danishText, englishText) {
         showRandomFromHistory(entry.pair);
       }
     } else {
-      alert("No history to go back to.");
     }
   }
 
@@ -522,7 +547,6 @@ function playBothLanguages(danishText, englishText) {
         showRandomFromHistory(entry.pair);
       }
     } else {
-      alert("No forward history available.");
     }
   }
 
@@ -533,12 +557,16 @@ function playBothLanguages(danishText, englishText) {
         <strong>Danish:</strong> ${pair.Danish}<br>
         <strong>English:</strong> ${pair.English}
         <div class="controls">
-<button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
+          <button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
           <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
         </div>
       </div>
     `;
   }
+
+
+
+
 
   function saveToHistory(query) {
     let history = JSON.parse(localStorage.getItem("searchHistory") || "[]");
