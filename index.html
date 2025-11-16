@@ -4,214 +4,231 @@
   <meta charset="UTF-8" />
   <title>Danish-English Practice</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <style>
-    :root {
-      --bg: #f4f4f4;
-      --text: #333;
-      --accent: #0055a5;
-      --card: #fff;
-    }
+<style>
+  :root {
+    --bg: #f4f4f4;
+    --text: #333;
+    --accent: #0055a5;
+    --card: #fff;
+  }
 
-    body.dark {
-      --bg: #000000;
-      --text: #eee;
-      --accent: #ff9900;
-      --card: #1a1a1a;
-    }
+  body.dark {
+    --bg: #000000;
+    --text: #eee;
+    --accent: #ff9900;
+    --card: #1a1a1a;
+  }
 
-    body {
-      font-family: Arial, sans-serif;
-      margin: 2em;
-      background-color: var(--bg);
-      color: var(--text);
-      transition: background-color 0.4s ease, color 0.4s ease;
-    }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 2em;
+    background-color: var(--bg);
+    color: var(--text);
+    transition: background-color 0.4s ease, color 0.4s ease;
+  }
 
-    h1 {
-      color: var(--accent);
-      font-size: 1.8em;
-      margin-bottom: 0.5em;
-      transition: color 0.4s ease;
-    }
+  h1 {
+    color: var(--accent);
+    font-size: 1.8em;
+    margin-bottom: 0.5em;
+    transition: color 0.4s ease;
+  }
 
-    input, select, button,
-    #results, #quiz,
-    #history span,
-    .quiz-question,
-    .result {
-      transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
-    }
+  input, select, button,
+  #results, #quiz,
+  #history span,
+  .quiz-question,
+  .result {
+    transition: background-color 0.4s ease, color 0.4s ease, border-color 0.4s ease;
+  }
 
-    input, select, button {
-      width: 100%;
-      padding: 0.6em;
-      font-size: 1em;
-      margin-bottom: 1em;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      background-color: var(--card);
-      color: var(--text);
-    }
+  input, select, button {
+    width: 100%;
+    padding: 0.6em;
+    font-size: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: var(--card);
+    color: var(--text);
+  }
 
-    #results, #quiz {
-      background-color: var(--card);
-      padding: 1em;
-      border-radius: 6px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.1);
-      margin-bottom: 1em;
-    }
+  #results, #quiz {
+    background-color: var(--card);
+    padding: 1em;
+    border-radius: 6px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-bottom: 1em;
+  }
 
-    .result, .quiz-question {
-      margin-bottom: 1em;
-    }
+  .result, .quiz-question {
+    margin-bottom: 1em;
+  }
 
-    .highlight {
-      background: linear-gradient(90deg, #cc6600, #ff9900);
-      color: white;
-      font-weight: bold;
-      padding: 0 3px;
-      border-radius: 4px;
-    }
+  .highlight {
+    background: linear-gradient(90deg, #cc6600, #ff9900);
+    color: white;
+    font-weight: bold;
+    padding: 0 3px;
+    border-radius: 4px;
+  }
 
-    .controls {
-      display: flex;
-      gap: 0.5em;
-      flex-wrap: wrap;
-      margin-top: 0.5em;
-    }
+  .controls {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    margin-top: 0.5em;
+  }
 
-    button.audio, button.copy {
-      flex: 1;
-      padding: 0.3em 0.6em;
-      font-size: 0.9em;
-      cursor: pointer;
-    }
+  button.audio, button.copy {
+    flex: 1;
+    padding: 0.3em 0.6em;
+    font-size: 0.9em;
+    cursor: pointer;
+  }
 
-    #history {
-      margin-top: 1em;
-    }
+  #history {
+    margin-top: 1em;
+  }
 
-    #history span {
-      display: inline-block;
-      background: var(--card);
-      border: 1px solid #ccc;
-      padding: 0.3em 0.6em;
-      margin: 0.2em;
-      border-radius: 4px;
-      cursor: pointer;
-    }
+  #history span {
+    display: inline-block;
+    background: var(--card);
+    border: 1px solid #ccc;
+    padding: 0.3em 0.6em;
+    margin: 0.2em;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-    .row.clearable {
-      display: flex;
-      gap: 0.5em;
-      margin-bottom: 1em;
-    }
-
-    .input-wrapper {
-      position: relative;
-      flex: 1;
-    }
-
-    .input-wrapper input {
-      width: 100%;
-      padding-right: 2em;
-      box-sizing: border-box;
-    }
-
-    .clear-x {
-      position: absolute;
-      right: 0.6em;
-      top: 0.80em;
-      font-size: 0.95em;
-      line-height: 1;
-      cursor: pointer;
-      color: var(--accent);
-      transition: color 0.3s ease;
-    }
-
-    .row.clearable button {
-      flex: 1;
-      box-sizing: border-box;
-    }
-
-    .top-button {
-      background: none;
-      border: none;
-      padding: 0.3em;
-      margin: 0.5em 0;
-      font-size: 1.2em;
-      cursor: pointer;
-      color: var(--accent);
-      transition: transform 0.2s ease, color 0.3s ease;
-    }
-
-    .top-button:hover {
-      transform: translateY(-2px);
-      color: #cc5500;
-    }
-
-    .quiz-footer {
-      display: flex;
-      gap: 0.5em;
-      flex-wrap: wrap;
-      justify-content: flex-start;
-      margin-top: 1em;
-    }
-
-    .fade-in {
-      animation: fadeIn 0.5s ease forwards;
-    }
-
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(10px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    .correct {
-      background-color: #c8e6c9;
-      color: #000;
-      border-radius: 4px;
-      padding: 0.3em 0.6em;
-      font-weight: normal;
-    }
-
-    .incorrect {
-      background-color: #ffcdd2;
-      color: #000;
-      border-radius: 4px;
-      padding: 0.3em 0.6em;
-      font-weight: normal;
-    }
-
-    .answer {
-      min-height: 3em;
-      transition: background-color 0.3s ease, color 0.3s ease;
-      font-weight: normal;
-    }
-
-.pagination {
+.button-row {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 1em;
-  margin-top: 1em;
+  gap: 0.5em;
+  margin-bottom: 1em;
 }
 
-.pagination button {
-  padding: 0.4em 0.8em;
-  font-size: 0.9em;
-  cursor: pointer;
+.button-row button {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+
+
+  .top-button {
+    background: none;
+    border: none;
+    padding: 0.3em;
+    margin: 0.5em 0;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: var(--accent);
+    transition: transform 0.2s ease, color 0.3s ease;
+  }
+
+  .top-button:hover {
+    transform: translateY(-2px);
+    color: #cc5500;
+  }
+
+  .quiz-footer {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 1em;
+  }
+
+  .fade-in {
+    animation: fadeIn 0.5s ease forwards;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .correct {
+    background-color: #c8e6c9;
+    color: #000;
+    border-radius: 4px;
+    padding: 0.3em 0.6em;
+    font-weight: normal;
+  }
+
+  .incorrect {
+    background-color: #ffcdd2;
+    color: #000;
+    border-radius: 4px;
+    padding: 0.3em 0.6em;
+    font-weight: normal;
+  }
+
+  .answer {
+    min-height: 3em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-weight: normal;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+  }
+
+  .pagination button {
+    padding: 0.4em 0.8em;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: var(--card);
+    color: var(--text);
+  }
+
+  /* ✅ New unified search box styles */
+.search-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 0.6em;
+  font-size: 1em;
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: var(--card);
   color: var(--text);
+  text-align: center; /* ⬅️ Center the text */
+  box-sizing: border-box;
 }
 
-  </style>
+.search-container .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 1.5em;
+  font-size: 1.2em;
+  color: var(--accent);
+  cursor: pointer;
+}
+
+  .search-container .clear-x {
+    right: 2.5em;
+  }
+
+  .search-container .search-icon {
+    right: 0.6em;
+  }
+</style>
+
+
 </head>
-
-
-
 
 
 <body>
@@ -223,23 +240,30 @@
     <option value="english">Search: English only</option>
   </select>
 
-  <div class="row clearable">
-    <div class="input-wrapper">
-      <input type="text" id="searchInput" placeholder="Type a word..." />
-      <span class="clear-x" onclick="clearSearchInput()">❌</span>
-    </div>
-    <button onclick="handleSearch()">🔍 Search</button>
-  </div>
 
-  <div class="row clearable">
-    <button onclick="goBack()">⏪ Back</button>
-    <button onclick="goForward()">⏩ Forward</button>
-  </div>
 
-  <div class="row clearable">
-    <button onclick="showRandom()">🎲 Random</button>
-    <button onclick="startQuiz()">🎓 Quiz</button>
+<!-- Unified Search Box -->
+<div class="search-container">
+  <input type="text" id="searchInput" placeholder="Type a word..." />
+  <div class="icon">
+    <span class="clear-x" onclick="clearSearchInput()" title="Clear">❌</span>
+    <span class="search-icon" onclick="handleSearch()" title="Search">🔍</span>
   </div>
+</div>
+
+<!-- Back / Forward Buttons -->
+<div class="button-row">
+  <button onclick="goBack()">⏪ Back</button>
+  <button onclick="goForward()">⏩ Forward</button>
+</div>
+
+<!-- Random / Quiz Buttons -->
+<div class="button-row">
+  <button onclick="showRandom()">🎲 Random</button>
+  <button onclick="startQuiz()">🎓 Quiz</button>
+</div>
+
+
 
   <div id="results"></div>
   <button class="top-button" onclick="scrollToTop()" title="Back to top">⬆️</button>
