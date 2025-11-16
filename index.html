@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Danish-English Practice</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
 <style>
   :root {
     --bg: #f4f4f4;
@@ -111,8 +114,6 @@
   flex: 1;
   box-sizing: border-box;
 }
-
-
 
   .top-button {
     background: none;
@@ -227,6 +228,31 @@
 }
 
 
+.toggle-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  font-size: 1em;
+  cursor: pointer;
+  margin-bottom: 1em;
+}
+
+.toggle-label input[type="checkbox"] {
+  width: 1.2em;
+  height: 1.2em;
+  transform: translateY(-1px); /* ⬆️ Raise slightly */
+  accent-color: var(--accent); /* Optional: match your theme */
+}
+
+
+.speech-settings {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+  margin-bottom: 1.5em;
+}
+
+
 </style>
 
 
@@ -254,6 +280,23 @@
 </div>
 
 
+<div class="speech-settings">
+  <label for="voiceSelect">Voice:</label>
+  <select id="voiceSelect"></select>
+
+  <label for="rateControl">Speed:</label>
+  <input type="range" id="rateControl" min="0" max="1" step="0.05" value="1" />
+
+  <label for="pitchControl">Pitch:</label>
+  <input type="range" id="pitchControl" min="0" max="1" step="0.05" value="1" />
+
+  <label class="toggle-label">
+    <input type="checkbox" id="englishSpeechToggle" checked />
+    English Speech
+  </label>
+</div>
+
+
 <!-- Back / Forward Buttons -->
 <div class="button-row">
   <button onclick="goBack()">⏪ Back</button>
@@ -271,16 +314,6 @@
   <div id="results"></div>
   <button class="top-button" onclick="scrollToTop()" title="Back to top">⬆️</button>
 
-  <div id="speechControls">
-    <label for="voiceSelect">Voice:</label>
-    <select id="voiceSelect"></select>
-
-    <label for="rateControl">Speed:</label>
-    <input type="range" id="rateControl" min="0" max="1" step="0.05" value="1" />
-
-    <label for="pitchControl">Pitch:</label>
-    <input type="range" id="pitchControl" min="0" max="1" step="0.05" value="1" />
-  </div>
 
   <div id="quiz"></div>
 
@@ -303,6 +336,28 @@ const resultsPerPage = 10;
   // 🌍 Global voice settings
   let voiceRate = parseFloat(localStorage.getItem("voiceRate")) || 1;
   let voicePitch = parseFloat(localStorage.getItem("voicePitch")) || 1;
+
+  let englishSpeechEnabled = localStorage.getItem("englishSpeechEnabled") !== "false";
+
+
+
+
+window.addEventListener("DOMContentLoaded", () => {
+  // ... existing voiceRate and pitch setup ...
+
+  const toggle = document.getElementById("englishSpeechToggle");
+  toggle.checked = englishSpeechEnabled;
+
+  toggle.addEventListener("change", () => {
+    englishSpeechEnabled = toggle.checked;
+    localStorage.setItem("englishSpeechEnabled", englishSpeechEnabled);
+  });
+
+  populateVoiceOptions();
+});
+
+
+
 
   // 🎛 Sync sliders with saved values
 window.addEventListener("DOMContentLoaded", () => {
@@ -557,19 +612,26 @@ function playBothLanguages(danishText, englishText) {
     utterDanish.voice = danishVoice;
   }
 
-  const utterEnglish = new SpeechSynthesisUtterance(englishText);
-  utterEnglish.lang = "en-AU"; // You can change this to 'en-US' or make it user-selectable
-  utterEnglish.rate = voiceRate;
-  utterEnglish.pitch = voicePitch;
+  // Check if English speech is enabled
+  const englishSpeechEnabled = localStorage.getItem("englishSpeechEnabled") !== "false";
 
-  utterDanish.onend = () => {
-    setTimeout(() => {
-      speechSynthesis.speak(utterEnglish);
-    }, 300);
-  };
+  if (englishSpeechEnabled) {
+    const utterEnglish = new SpeechSynthesisUtterance(englishText);
+    utterEnglish.lang = "en-AU"; // You can change this to 'en-US' or make it user-selectable
+    utterEnglish.rate = voiceRate;
+    utterEnglish.pitch = voicePitch;
+
+    utterDanish.onend = () => {
+      setTimeout(() => {
+        speechSynthesis.speak(utterEnglish);
+      }, 300);
+    };
+  }
 
   speechSynthesis.speak(utterDanish);
 }
+
+
 
 function speakDanish(text) {
   const selectedVoiceName = document.getElementById("voiceSelect").value;
