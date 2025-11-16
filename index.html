@@ -315,11 +315,15 @@
 
 
 
+<div id="contentArea">
   <div id="results"></div>
-  <button class="top-button" onclick="scrollToTop()" title="Back to top">⬆️</button>
-
-
   <div id="quiz"></div>
+</div>
+
+
+
+
+
 
   <div class="quiz-footer">
     <button id="retakeQuizBtn" onclick="startQuiz()" style="display:none;">🔁 Retake Quiz</button>
@@ -422,9 +426,41 @@ function populateVoiceOptions() {
     });
   }
 
-  function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+
+function handleSearch() {
+  // ... your search logic ...
+  scrollToContent();
+}
+
+
+function showRandom() {
+  // ... your random logic ...
+  scrollToContent();
+}
+
+
+function startQuiz() {
+  // ... your quiz logic ...
+  scrollToContent();
+}
+
+
+
+
+
+
+function scrollToContent() {
+  const content = document.getElementById("contentArea");
+  if (content) {
+    content.scrollIntoView({ behavior: "smooth", block: "start" });
   }
+}
+
+
+
+
+  function scrollToTop() {
+    scrollToContent();  }
 
   function toggleDarkMode() {
     document.body.classList.toggle("dark");
@@ -580,28 +616,31 @@ function prevPage() {
 
 
 
-  function showRandom() {
-    if (examples.length === 0) return;
-    const pair = examples[Math.floor(Math.random() * examples.length)];
+function showRandom() {
+  if (examples.length === 0) return;
+  const pair = examples[Math.floor(Math.random() * examples.length)];
 
-    if (!isNavigating) {
-      navigationHistory.push({ type: "random", pair });
-      navIndex = navigationHistory.length - 1;
-    }
-    isNavigating = false;
-
-    document.getElementById("searchInput").value = "";
-    document.getElementById("results").innerHTML = `
-      <div class="result">
-        <strong>Danish:</strong> ${pair.Danish}<br>
-        <strong>English:</strong> ${pair.English}
-        <div class="controls">
-          <button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
-          <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
-        </div>
-      </div>
-    `;
+  if (!isNavigating) {
+    navigationHistory.push({ type: "random", pair });
+    navIndex = navigationHistory.length - 1;
   }
+  isNavigating = false;
+
+  document.getElementById("searchInput").value = "";
+  document.getElementById("results").innerHTML = `
+    <div class="result">
+      <strong>Danish:</strong> ${pair.Danish}<br>
+      <strong>English:</strong> ${pair.English}
+      <div class="controls">
+        <button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
+        <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
+      </div>
+    </div>
+  `;
+  scrollToContent(); // ✅ Add this
+}
+
+
 
 function playBothLanguages(danishText, englishText) {
   const selectedVoiceName = document.getElementById("voiceSelect").value;
@@ -653,52 +692,58 @@ function speakDanish(text) {
   speechSynthesis.speak(utterance);
 }
 
-  function startQuiz() {
-    if (examples.length < 10) {
-      document.getElementById("quiz").innerHTML = "<p>Not enough data for a quiz.</p>";
-      document.getElementById("retakeQuizBtn").style.display = "none";
-      return;
-    }
-
-    const shuffled = [...examples].sort(() => 0.5 - Math.random()).slice(0, 10);
-    const quizHTML = shuffled.map((pair, i) => {
-      const correct = pair.English;
-      const options = [correct];
-      while (options.length < 4) {
-        const alt = examples[Math.floor(Math.random() * examples.length)].English;
-        if (!options.includes(alt)) options.push(alt);
-      }
-      options.sort(() => 0.5 - Math.random());
-
-      return `
-        <div class="quiz-question fade-in">
-          <div><strong>Q${i + 1}:</strong> What is the English meaning of "<em>${pair.Danish}</em>"?</div>
-          <button class="audio" onclick="speakDanish('${pair.Danish.replace(/'/g, "\\'")}')">🔊 Hear Danish</button>
-          <div class="answers">
-            ${options.map(opt => `
-              <button class="answer" data-correct="${correct}" onclick="checkAnswer(this)">${opt}</button>
-            `).join("")}
-          </div>
-        </div>
-      `;
-    }).join("");
-
-    document.getElementById("quiz").innerHTML = `
-      <h3 id="quizTitle" class="fade-in">Quiz Mode</h3>
-      <div class="fade-in">${quizHTML}</div>
-    `;
-
-    const retakeBtn = document.getElementById("retakeQuizBtn");
-    retakeBtn.style.display = "block";
-    retakeBtn.classList.add("fade-in");
-
-    setTimeout(() => {
-      const slider = document.getElementById("rateControl");
-      if (slider) {
-        slider.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    }, 100);
+function startQuiz() {
+  if (examples.length < 10) {
+    document.getElementById("quiz").innerHTML = "<p>Not enough data for a quiz.</p>";
+    document.getElementById("retakeQuizBtn").style.display = "none";
+    return;
   }
+
+  const shuffled = [...examples].sort(() => 0.5 - Math.random()).slice(0, 10);
+  const quizHTML = shuffled.map((pair, i) => {
+    const correct = pair.English;
+    const options = [correct];
+    while (options.length < 4) {
+      const alt = examples[Math.floor(Math.random() * examples.length)].English;
+      if (!options.includes(alt)) options.push(alt);
+    }
+    options.sort(() => 0.5 - Math.random());
+
+    return `
+      <div class="quiz-question fade-in">
+        <div><strong>Q${i + 1}:</strong> What is the English meaning of "<em>${pair.Danish}</em>"?</div>
+        <button class="audio" onclick="speakDanish('${pair.Danish.replace(/'/g, "\\'")}')">🔊 Hear Danish</button>
+        <div class="answers">
+          ${options.map(opt => `
+            <button class="answer" data-correct="${correct}" onclick="checkAnswer(this)">${opt}</button>
+          `).join("")}
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  document.getElementById("quiz").innerHTML = `
+    <h3 id="quizTitle" class="fade-in">Quiz Mode</h3>
+    <div class="fade-in">${quizHTML}</div>
+  `;
+
+  const retakeBtn = document.getElementById("retakeQuizBtn");
+  retakeBtn.style.display = "block";
+  retakeBtn.classList.add("fade-in");
+
+  scrollToContent(); // ✅ Scrolls quiz into view below navigation
+}
+
+
+
+function scrollToContent() {
+  const content = document.getElementById("contentArea");
+  if (content) {
+    content.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+}
+
+
 
   function checkAnswer(button) {
     const selected = button.textContent;
