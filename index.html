@@ -188,8 +188,32 @@
       transition: background-color 0.3s ease, color 0.3s ease;
       font-weight: normal;
     }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1em;
+}
+
+.pagination button {
+  padding: 0.4em 0.8em;
+  font-size: 0.9em;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: var(--card);
+  color: var(--text);
+}
+
   </style>
 </head>
+
+
+
+
+
 <body>
   <h1>Danish-English Practice</h1>
   <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
@@ -245,40 +269,60 @@
 
 
 <script>
+let paginatedResults = [];
+let currentPage = 0;
+const resultsPerPage = 10;
+
   // 🌍 Global voice settings
   let voiceRate = parseFloat(localStorage.getItem("voiceRate")) || 1;
   let voicePitch = parseFloat(localStorage.getItem("voicePitch")) || 1;
 
   // 🎛 Sync sliders with saved values
-  window.addEventListener("DOMContentLoaded", () => {
-    document.getElementById("rateControl").value = voiceRate;
-    document.getElementById("pitchControl").value = voicePitch;
+window.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("rateControl").value = voiceRate;
+  document.getElementById("pitchControl").value = voicePitch;
 
-    document.getElementById("rateControl").addEventListener("input", function () {
-      voiceRate = parseFloat(this.value);
-      localStorage.setItem("voiceRate", voiceRate);
-    });
-
-    document.getElementById("pitchControl").addEventListener("input", function () {
-      voicePitch = parseFloat(this.value);
-      localStorage.setItem("voicePitch", voicePitch);
-    });
+  document.getElementById("rateControl").addEventListener("input", function () {
+    voiceRate = parseFloat(this.value);
+    localStorage.setItem("voiceRate", voiceRate);
   });
 
+  document.getElementById("pitchControl").addEventListener("input", function () {
+    voicePitch = parseFloat(this.value);
+    localStorage.setItem("voicePitch", voicePitch);
+  });
+
+  populateVoiceOptions(); // ✅ Ensure voices are loaded immediately
+});
+
+
   // 🗣️ Voice setup
-  function populateVoiceOptions() {
-    const select = document.getElementById("voiceSelect");
-    const voices = speechSynthesis.getVoices().filter(v => v.lang === "da-DK");
+function populateVoiceOptions() {
+  const select = document.getElementById("voiceSelect");
+  const voices = speechSynthesis.getVoices().filter(v => v.lang === "da-DK");
 
-    if (voices.length === 0) {
-      select.innerHTML = `<option disabled>No Danish voices found</option>`;
-      return;
-    }
-
-    select.innerHTML = voices.map(v => `<option value="${v.name}">${v.name}</option>`).join("");
+  if (voices.length === 0) {
+    select.innerHTML = `<option disabled>No Danish voices found</option>`;
+    return;
   }
 
+  select.innerHTML = voices.map(v => `<option value="${v.name}">${v.name}</option>`).join("");
+
+
+  // Restore saved voice if available
+  const savedVoice = localStorage.getItem("selectedDanishVoice");
+  if (savedVoice && voices.some(v => v.name === savedVoice)) {
+    select.value = savedVoice;
+  }
+
+  // Save voice on change
+  select.addEventListener("change", () => {
+    localStorage.setItem("selectedDanishVoice", select.value);
+  });
+}
+
   speechSynthesis.onvoiceschanged = populateVoiceOptions;
+
 
   // 🧹 Utility functions
   function clearSearchInput() {
@@ -300,11 +344,19 @@
     document.body.classList.toggle("dark");
   }
 
-  function highlight(text, query) {
-    const regex = new RegExp(`(${query})`, "gi");
-    return text.replace(regex, "<span class='highlight'>$1</span>");
-  }
 
+
+function highlight(text, query) {
+  const variants = [
+    query,
+    query + "s",
+    query + "es",
+    query + "ed",
+    query + "ing"
+  ];
+  const regex = new RegExp(`\\b(${variants.map(escapeRegex).join("|")})\\b`, "gi");
+  return text.replace(regex, "<span class='highlight'>$1</span>");
+}
 
 
   let navigationHistory = [];
@@ -323,64 +375,124 @@
       document.getElementById("results").innerHTML = "<p style='color:red;'>Failed to load JSON.</p>";
     });
 
+function escapeRegex(text) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
   document.getElementById("searchInput").addEventListener("keydown", function (e) {
     if (e.key === "Enter") {
       handleSearch();
     }
   });
 
-  function handleSearch(passedQuery = null) {
-    const query = passedQuery !== null
-      ? passedQuery.trim().toLowerCase()
-      : document.getElementById("searchInput").value.trim().toLowerCase();
 
-    if (query.length === 0) {
-      document.getElementById("results").innerHTML = "";
-      return;
-    }
 
-    if (!isNavigating) {
-      navigationHistory.push({ type: "search", query });
-      navIndex = navigationHistory.length - 1;
-    }
-    isNavigating = false;
 
-    document.getElementById("searchInput").value = query;
-    saveToHistory(query);
+function handleSearch(passedQuery = null) {
+  const query = passedQuery !== null
+    ? passedQuery.trim().toLowerCase()
+    : document.getElementById("searchInput").value.trim().toLowerCase();
 
-    const mode = document.getElementById("searchMode").value;
-    const queryLength = query.length;
-    const threshold = queryLength <= 3 ? 0 : queryLength <= 5 ? 1 : 2;
-
-    const matches = examples.filter(pair => {
-      const danish = pair.Danish.toLowerCase();
-      const english = pair.English.toLowerCase();
-
-      if (mode === "danish") {
-        return danish.includes(query) || levenshtein(danish, query) <= threshold;
-      }
-
-      if (mode === "english") {
-        return english.includes(query) || levenshtein(english, query) <= threshold;
-      }
-
-      return (
-        danish.includes(query) || levenshtein(danish, query) <= threshold ||
-        english.includes(query) || levenshtein(english, query) <= threshold
-      );
-    });
-
-    document.getElementById("results").innerHTML = matches.map(pair =>
-      `<div class="result">
-        <strong>Danish:</strong> ${highlight(pair.Danish, query)}<br>
-        <strong>English:</strong> ${highlight(pair.English, query)}
-        <div class="controls">
-          <button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
-          <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
-        </div>
-      </div>`
-    ).join("");
+  if (query.length === 0) {
+    document.getElementById("results").innerHTML = "";
+    return;
   }
+
+  if (!isNavigating) {
+    navigationHistory.push({ type: "search", query });
+    navIndex = navigationHistory.length - 1;
+  }
+  isNavigating = false;
+
+  document.getElementById("searchInput").value = query;
+  saveToHistory(query);
+
+  const mode = document.getElementById("searchMode").value;
+
+  const variants = [
+    query,
+    query + "s",
+    query + "es",
+    query + "ed",
+    query + "ing"
+  ];
+
+  const matches = examples.filter(pair => {
+    const danishWords = pair.Danish.toLowerCase().split(/\W+/);
+    const englishWords = pair.English.toLowerCase().split(/\W+/);
+
+    const matchDanish = variants.some(v => danishWords.includes(v));
+    const matchEnglish = variants.some(v => englishWords.includes(v));
+
+    if (mode === "danish") {
+      return matchDanish;
+    }
+
+    if (mode === "english") {
+      return matchEnglish;
+    }
+
+    return matchDanish || matchEnglish;
+  });
+
+  paginatedResults = matches;
+  currentPage = 0;
+  renderPage();
+}
+
+
+
+function renderPage() {
+  window.scrollTo({ top: 0, behavior: "smooth" }); // ⬆️ Scroll to top
+
+  const start = currentPage * resultsPerPage;
+  const end = start + resultsPerPage;
+  const pageItems = paginatedResults.slice(start, end);
+
+  const query = document.getElementById("searchInput").value.trim().toLowerCase();
+
+  document.getElementById("results").innerHTML = pageItems.map(pair =>
+    `<div class="result">
+      <strong>Danish:</strong> ${highlight(pair.Danish, query)}<br>
+      <strong>English:</strong> ${highlight(pair.English, query)}
+      <div class="controls">
+        <button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
+        <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
+      </div>
+    </div>`
+  ).join("");
+
+  const totalPages = Math.ceil(paginatedResults.length / resultsPerPage);
+  if (totalPages > 1) {
+    const nav = document.createElement("div");
+    nav.className = "pagination";
+    nav.innerHTML = `
+      <button onclick="prevPage()" ${currentPage === 0 ? "disabled" : ""}>⬅️ Prev</button>
+      <span>Page ${currentPage + 1} of ${totalPages}</span>
+      <button onclick="nextPage()" ${currentPage >= totalPages - 1 ? "disabled" : ""}>Next ➡️</button>
+    `;
+    document.getElementById("results").appendChild(nav);
+  }
+}
+
+function nextPage() {
+  const totalPages = Math.ceil(paginatedResults.length / resultsPerPage);
+  if (currentPage < totalPages - 1) {
+    currentPage++;
+    renderPage();
+  }
+}
+
+function prevPage() {
+  if (currentPage > 0) {
+    currentPage--;
+    renderPage();
+  }
+}
+
+
+
+
 
   function showRandom() {
     if (examples.length === 0) return;
@@ -404,9 +516,6 @@
       </div>
     `;
   }
-
-
-
 
 function playBothLanguages(danishText, englishText) {
   const selectedVoiceName = document.getElementById("voiceSelect").value;
@@ -450,9 +559,6 @@ function speakDanish(text) {
 
   speechSynthesis.speak(utterance);
 }
-
-
-
 
   function startQuiz() {
     if (examples.length < 10) {
