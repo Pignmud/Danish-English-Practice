@@ -103,7 +103,7 @@
 
 .button-row {
   display: flex;
-  gap: 0.5em;
+  gap: 0.8em;
   margin-bottom: 1em;
 }
 
@@ -196,35 +196,37 @@
 
 .search-container input {
   width: 100%;
-  padding: 0.6em;
+  padding: 0.6em 5em 0.8em 0.8em; /* extra right padding for icons */
   font-size: 1em;
   border: 1px solid #ccc;
   border-radius: 4px;
   background-color: var(--card);
   color: var(--text);
-  text-align: center; /* ⬅️ Center the text */
   box-sizing: border-box;
 }
 
-.search-container .icon {
+.icon-group {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0em;
+  bottom: 0.9em;
+  right: 0.6em;
   display: flex;
-  gap: 1.5em;
-  font-size: 1.2em;
-  color: var(--accent);
-  cursor: pointer;
+  align-items: center;
+  gap: 2em;
 }
 
-  .search-container .clear-x {
-    right: 2.5em;
-  }
+.icon-group span {
+  font-size: 1.0em;
+  color: var(--accent);
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
 
-  .search-container .search-icon {
-    right: 0.6em;
-  }
+.icon-group span:hover {
+  color: #cc5500;
+}
+
+
 </style>
 
 
@@ -245,11 +247,12 @@
 <!-- Unified Search Box -->
 <div class="search-container">
   <input type="text" id="searchInput" placeholder="Type a word..." />
-  <div class="icon">
+  <div class="icon-group">
     <span class="clear-x" onclick="clearSearchInput()" title="Clear">❌</span>
     <span class="search-icon" onclick="handleSearch()" title="Search">🔍</span>
   </div>
 </div>
+
 
 <!-- Back / Forward Buttons -->
 <div class="button-row">
