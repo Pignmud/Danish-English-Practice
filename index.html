@@ -64,6 +64,15 @@
     margin-bottom: 1em;
   }
 
+
+#results,
+#quiz {
+  scroll-margin-top: 3em;
+}
+
+
+
+
   .result, .quiz-question {
     margin-bottom: 1em;
   }
@@ -109,6 +118,18 @@
   gap: 0.8em;
   margin-bottom: 1em;
 }
+
+
+
+.button-row:first-of-type {
+  position: sticky;
+  top: 0;
+  background-color: var(--bg);
+  z-index: 10;
+  padding-top: 0.5em;
+}
+
+
 
 .button-row button {
   flex: 1;
@@ -342,6 +363,11 @@ let paginatedResults = [];
 let currentPage = 0;
 const resultsPerPage = 10;
 
+
+let currentMode = "search"; // can be "search", "random", or "quiz"
+
+
+
   // 🌍 Global voice settings
   let voiceRate = parseFloat(localStorage.getItem("voiceRate")) || 1;
   let voicePitch = parseFloat(localStorage.getItem("voicePitch")) || 0;
@@ -489,6 +515,11 @@ function handleSearch(passedQuery = null) {
     return;
   }
 
+  // ✅ Set mode and clear quiz
+  currentMode = "search";
+  document.getElementById("quiz").innerHTML = "";
+  document.getElementById("retakeQuizBtn").style.display = "none";
+
   if (!isNavigating) {
     navigationHistory.push({ type: "search", query });
     navIndex = navigationHistory.length - 1;
@@ -515,14 +546,8 @@ function handleSearch(passedQuery = null) {
     const matchDanish = variants.some(v => danishWords.includes(v));
     const matchEnglish = variants.some(v => englishWords.includes(v));
 
-    if (mode === "danish") {
-      return matchDanish;
-    }
-
-    if (mode === "english") {
-      return matchEnglish;
-    }
-
+    if (mode === "danish") return matchDanish;
+    if (mode === "english") return matchEnglish;
     return matchDanish || matchEnglish;
   });
 
@@ -533,9 +558,24 @@ function handleSearch(passedQuery = null) {
 
 
 
-function renderPage() {
-  window.scrollTo({ top: 0, behavior: "smooth" }); // ⬆️ Scroll to top
 
+
+function scrollToContent() {
+  const results = document.getElementById("results");
+  const quiz = document.getElementById("quiz");
+
+  setTimeout(() => {
+    if (currentMode === "quiz") {
+      quiz.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else {
+      results.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, 50);
+}
+
+
+function renderPage() {
+  scrollToContent(); // ✅ Scroll after content is injected
   const start = currentPage * resultsPerPage;
   const end = start + resultsPerPage;
   const pageItems = paginatedResults.slice(start, end);
@@ -585,28 +625,38 @@ function prevPage() {
 
 
 
-  function showRandom() {
-    if (examples.length === 0) return;
-    const pair = examples[Math.floor(Math.random() * examples.length)];
+function showRandom() {
+  if (examples.length === 0) return;
+  const pair = examples[Math.floor(Math.random() * examples.length)];
 
-    if (!isNavigating) {
-      navigationHistory.push({ type: "random", pair });
-      navIndex = navigationHistory.length - 1;
-    }
-    isNavigating = false;
+  // ✅ Set mode and clear quiz
+  currentMode = "random";
+  document.getElementById("quiz").innerHTML = "";
+  document.getElementById("retakeQuizBtn").style.display = "none";
 
-    document.getElementById("searchInput").value = "";
-    document.getElementById("results").innerHTML = `
-      <div class="result">
-        <strong>Danish:</strong> ${pair.Danish}<br>
-        <strong>English:</strong> ${pair.English}
-        <div class="controls">
-          <button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
-          <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
-        </div>
-      </div>
-    `;
+  if (!isNavigating) {
+    navigationHistory.push({ type: "random", pair });
+    navIndex = navigationHistory.length - 1;
   }
+  isNavigating = false;
+
+  document.getElementById("searchInput").value = "";
+  document.getElementById("results").innerHTML = `
+    <div class="result">
+      <strong>Danish:</strong> ${pair.Danish}<br>
+      <strong>English:</strong> ${pair.English}
+      <div class="controls">
+        <button onclick="playBothLanguages('${pair.Danish.replace(/'/g, "\\'")}', '${pair.English.replace(/'/g, "\\'")}')">🔊 Play</button>
+        <button class="copy" onclick="copyToClipboard('${pair.Danish} — ${pair.English}')">📋 Copy</button>
+      </div>
+    </div>
+  `;
+
+  scrollToContent();
+}
+
+
+
 
 function playBothLanguages(danishText, englishText) {
   const selectedVoiceName = document.getElementById("voiceSelect").value;
@@ -658,52 +708,58 @@ function speakDanish(text) {
   speechSynthesis.speak(utterance);
 }
 
-  function startQuiz() {
-    if (examples.length < 10) {
-      document.getElementById("quiz").innerHTML = "<p>Not enough data for a quiz.</p>";
-      document.getElementById("retakeQuizBtn").style.display = "none";
-      return;
-    }
 
-    const shuffled = [...examples].sort(() => 0.5 - Math.random()).slice(0, 10);
-    const quizHTML = shuffled.map((pair, i) => {
-      const correct = pair.English;
-      const options = [correct];
-      while (options.length < 4) {
-        const alt = examples[Math.floor(Math.random() * examples.length)].English;
-        if (!options.includes(alt)) options.push(alt);
-      }
-      options.sort(() => 0.5 - Math.random());
 
-      return `
-        <div class="quiz-question fade-in">
-          <div><strong>Q${i + 1}:</strong> What is the English meaning of "<em>${pair.Danish}</em>"?</div>
-          <button class="audio" onclick="speakDanish('${pair.Danish.replace(/'/g, "\\'")}')">🔊 Hear Danish</button>
-          <div class="answers">
-            ${options.map(opt => `
-              <button class="answer" data-correct="${correct}" onclick="checkAnswer(this)">${opt}</button>
-            `).join("")}
-          </div>
-        </div>
-      `;
-    }).join("");
 
-    document.getElementById("quiz").innerHTML = `
-      <h3 id="quizTitle" class="fade-in">Quiz Mode</h3>
-      <div class="fade-in">${quizHTML}</div>
-    `;
-
-    const retakeBtn = document.getElementById("retakeQuizBtn");
-    retakeBtn.style.display = "block";
-    retakeBtn.classList.add("fade-in");
-
-    setTimeout(() => {
-      const slider = document.getElementById("rateControl");
-      if (slider) {
-        slider.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    }, 100);
+function startQuiz() {
+  if (examples.length < 10) {
+    document.getElementById("quiz").innerHTML = "<p>Not enough data for a quiz.</p>";
+    document.getElementById("retakeQuizBtn").style.display = "none";
+    return;
   }
+
+  // ✅ Set mode to "quiz"
+  currentMode = "quiz";
+
+  // ✅ Clear search results to avoid scroll confusion
+  document.getElementById("results").innerHTML = "";
+
+  const shuffled = [...examples].sort(() => 0.5 - Math.random()).slice(0, 10);
+  const quizHTML = shuffled.map((pair, i) => {
+    const correct = pair.English;
+    const options = [correct];
+    while (options.length < 4) {
+      const alt = examples[Math.floor(Math.random() * examples.length)].English;
+      if (!options.includes(alt)) options.push(alt);
+    }
+    options.sort(() => 0.5 - Math.random());
+
+    return `
+      <div class="quiz-question fade-in">
+        <div><strong>Q${i + 1}:</strong> What is the English meaning of "<em>${pair.Danish}</em>"?</div>
+        <button class="audio" onclick="speakDanish('${pair.Danish.replace(/'/g, "\\'")}')">🔊 Hear Danish</button>
+        <div class="answers">
+          ${options.map(opt => `
+            <button class="answer" data-correct="${correct}" onclick="checkAnswer(this)">${opt}</button>
+          `).join("")}
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  document.getElementById("quiz").innerHTML = `
+    <h3 id="quizTitle" class="fade-in">Quiz Mode</h3>
+    <div class="fade-in">${quizHTML}</div>
+  `;
+
+  const retakeBtn = document.getElementById("retakeQuizBtn");
+  retakeBtn.style.display = "block";
+  retakeBtn.classList.add("fade-in");
+
+  scrollToContent(); // ✅ Scroll after content is injected
+}
+
+
 
   function checkAnswer(button) {
     const selected = button.textContent;
